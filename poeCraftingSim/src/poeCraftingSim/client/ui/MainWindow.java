@@ -1,44 +1,77 @@
 package poeCraftingSim.client.ui;
 
-import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
 import poeCraftingSim.client.items.Item;
 
 public class MainWindow extends JFrame {
-	
-	private Item item;
-	
+	private static final long serialVersionUID = 2419089325406471624L;
+
+	private static Item item;
+
 	private ItemCreationPanel creationPanel;
-	private JLabel itemPanel;
-	
-	
+	private ItemCraftingPanel craftingPanel;
+
+	private JLabel itemPanel;	
+
 	private MainWindow() {
-		
+
 		JFrame frame = new JFrame("POE Crafting Simulator");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		ItemCreationPanel test = new ItemCreationPanel();
-		frame.getContentPane().add(test);
+		Container cb = frame.getContentPane();
+
+		cb.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
+
+		creationPanel = new ItemCreationPanel();
+		JButton createItem = new JButton("Create");
+		createItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//TODO
+				//Create Item
+				if (creationPanel.getType() != "select type" && creationPanel.getBase() != "select base" && creationPanel.getRarity() != "select rarity" && creationPanel.getItemLevel() != -1) {
+					item = Item.getInstance();
+					item.setType(creationPanel.getType());
+					item.setBase(creationPanel.getBase());
+					item.setRarity(creationPanel.getRarity());
+					item.setItemLevel(creationPanel.getItemLevel());
+
+					craftingPanel = new ItemCraftingPanel();
+					creationPanel.setVisible(false);;
+					createItem.setVisible(false);
+					cb.add(craftingPanel);
+				}
+				else
+					System.out.println("missing fields");
+			}          
+		});
+		Dimension buttonSize = new Dimension(50, 50);
+		createItem.setPreferredSize(buttonSize);
+		cb.add(creationPanel);
+		cb.add(createItem);
+
 		frame.setSize(400, 300);
 		frame.setVisible(true);
 
 	}
-	
+
 	public void updateItemPanel(Item i) {
 		itemPanel.setText("<html>Item Name:" + i.getName() + "<br>" 
 				+ "Item Rarity:" + i.getRarity() + "<br>" + "</html>");
 	}
-	
+
 	public void setItem(Item i) {
 		item = i;
 	}
-	
-	public Item getItem() {
+
+	public static Item getItem() {
 		return item;
 	}
-	
+
 	public static void main(String[] args) {
 		javax.swing.SwingUtilities.invokeLater(new Runnable	() {
 			public void run() {

@@ -5,7 +5,9 @@ public class Item {
 	
 	//Item Properties
 	String name;
+	int itemLevel;
 	String type;
+	String base;
 	int quality;
 	String rarity;
 	
@@ -17,13 +19,21 @@ public class Item {
 		}
 		return instance;
 	}
-	
+	//set methods
 	public void setName(String n) {
 		name = n;
 	}
 	
+	public void setItemLevel(int i) {
+		itemLevel = i;
+	}
+	
 	public void setType(String t) {
 		type = t;
+	}
+	
+	public void setBase(String b) {
+		base = b;
 	}
 	
 	public void setQuality(int i) {
@@ -33,6 +43,7 @@ public class Item {
 		rarity = r;
 	}
 	
+	//get methods
 	public String getName() {
 		return name;
 	}
