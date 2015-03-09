@@ -2,15 +2,16 @@ package poeCraftingSim.client.orbs;
 
 import poeCraftingSim.client.items.Item;
 
-public class TransmutationOrb {
+public class TransmutationOrb implements NormalOrb {
 
 	public static void use(Item i) {
-		i.changeRarity("magic");
+		if (isValid(i) == true) {
+			i.changeRarity("Magic");
+		}
 	}
 
-
-	public boolean isValid(Item i) {
-		return i.isValid("TransmutationOrb");
+	public static boolean isValid(Item i) {
+		return i.isValid(TransmutationOrb.class.getSimpleName());
 	}
 
 }

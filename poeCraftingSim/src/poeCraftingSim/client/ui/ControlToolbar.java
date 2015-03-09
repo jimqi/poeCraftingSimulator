@@ -6,42 +6,50 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 import poeCraftingSim.client.items.Item;
-import poeCraftingSim.client.orbs.TransmutationOrb;
+import poeCraftingSim.client.orbs.*;
 
 public class ControlToolbar extends JToolBar {
+	private JButton testButton, testItemButton, testScourButton;
 	
-	private MainWindow main;
-	private JButton testButton, testItemButton;
-	
-	public ControlToolbar(MainWindow mainWindow) {
-		
-		this.main = mainWindow;
+	public ControlToolbar() {
 		
 		// Prevent user from relocating the toolbar
 		setFloatable(false);
 		
-		testButton = new JButton("test");
+		Item testItem = MainWindow.getItem();
+		
+		testButton = new JButton("testRegal");
 		testButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Item testItem = Item.getInstance();
-				main.setItem(testItem);
-				main.updateItemPanel(testItem);
+				RegalOrb.use(testItem);
+				MainWindow.updateItemPanel(testItem);
 			}
 		});
 		
-		testItemButton = new JButton("testItem");
+		testItemButton = new JButton("testTransmute");
 		testItemButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Item testItem = main.getItem();;
 				TransmutationOrb.use(testItem);
-				main.updateItemPanel(testItem);
+				MainWindow.updateItemPanel(testItem);
+				System.out.println(testItem.getRarity());
+			}
+		});
+		
+		testScourButton = new JButton("testScouring");
+		testScourButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				ScouringOrb.use(testItem);
+				MainWindow.updateItemPanel(testItem);
+				System.out.println(testItem.getRarity());
 			}
 		});
 		
 		this.add(testButton);
 		this.add(testItemButton);
+		this.add(testScourButton);
 		
 	}
 

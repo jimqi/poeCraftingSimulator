@@ -10,8 +10,14 @@ public class Item {
 	String base;
 	int quality;
 	String rarity;
+	int sockets;
+	int links;
 	
-	protected Item() {}
+	protected Item() {
+		sockets = 1;
+		links = 1;
+		quality = 0;
+	}
 	
 	public static Item getInstance() {
 		if(instance == null) {
@@ -48,8 +54,19 @@ public class Item {
 		return name;
 	}
 	
+	public String getBase() {
+		return base;
+	}
+	public String getType() {
+		return type;
+	}
+	
 	public String getRarity() {
 		return rarity;
+	}
+	
+	public int getItemLevel() {
+		return itemLevel;
 	}
 	
 	public void changeRarity(String r) {
@@ -58,11 +75,15 @@ public class Item {
 	
 	public boolean isValid(String orbName) {
 		switch (orbName) {
-			case "transmuationOrb": if (rarity == "common") {
+			case "TransmutationOrb": if (rarity == "Common") {
 				return true;
 			}
-			else
-				return false;
+			case "RegalOrb": if (rarity == "Magic") {
+				return true;
+			}
+			case "ScouringOrb": if (rarity != "Common") {
+				return true;
+			}
 			default:
 				return false;
 		}

@@ -11,19 +11,19 @@ import poeCraftingSim.client.items.Item;
 
 public class MainWindow extends JFrame {
 	private static final long serialVersionUID = 2419089325406471624L;
-
+	static Container cb;
 	private static Item item;
 
 	private ItemCreationPanel creationPanel;
-	private ItemCraftingPanel craftingPanel;
-
-	private JLabel itemPanel;	
+	private static ItemCraftingPanel craftingPanel;
+	
+	private static ControlToolbar toolbar;	
 
 	private MainWindow() {
 
 		JFrame frame = new JFrame("POE Crafting Simulator");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Container cb = frame.getContentPane();
+		cb = frame.getContentPane();
 
 		cb.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
 
@@ -33,6 +33,7 @@ public class MainWindow extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				//TODO
 				//Create Item
+				
 				if (creationPanel.getType() != "select type" && creationPanel.getBase() != "select base" && creationPanel.getRarity() != "select rarity" && creationPanel.getItemLevel() != -1) {
 					item = Item.getInstance();
 					item.setType(creationPanel.getType());
@@ -43,7 +44,11 @@ public class MainWindow extends JFrame {
 					craftingPanel = new ItemCraftingPanel();
 					creationPanel.setVisible(false);;
 					createItem.setVisible(false);
+					toolbar = new ControlToolbar();
+					cb.add(toolbar);
 					cb.add(craftingPanel);
+
+					
 				}
 				else
 					System.out.println("missing fields");
@@ -59,17 +64,22 @@ public class MainWindow extends JFrame {
 
 	}
 
-	public void updateItemPanel(Item i) {
-		itemPanel.setText("<html>Item Name:" + i.getName() + "<br>" 
-				+ "Item Rarity:" + i.getRarity() + "<br>" + "</html>");
-	}
-
 	public void setItem(Item i) {
 		item = i;
 	}
 
 	public static Item getItem() {
 		return item;
+	}
+	
+	public static void updateItemPanel(Item i) {
+		cb.removeAll();
+		cb.revalidate();
+		cb.repaint();
+		toolbar = new ControlToolbar();
+		cb.add(toolbar);
+		craftingPanel = new ItemCraftingPanel();
+		cb.add(craftingPanel);
 	}
 
 	public static void main(String[] args) {
