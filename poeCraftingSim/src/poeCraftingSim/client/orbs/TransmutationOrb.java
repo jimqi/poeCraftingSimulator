@@ -4,7 +4,7 @@ import poeCraftingSim.client.items.Item;
 
 public class TransmutationOrb {
 
-	public void use(Item i) {
+	public static void use(Item i) {
 		i.changeRarity("magic");
 	}
 

@@ -1,17 +1,36 @@
 package poeCraftingSim.client.items;
 
 public class Item {
+	private static volatile Item instance = null;
+	
 	//Item Properties
-	static String name;
-	static String type;
+	String name;
+	String type;
 	int quality;
 	String rarity;
 	
-	public Item(String t) {
-		name = "test";
+	protected Item() {}
+	
+	public static Item getInstance() {
+		if(instance == null) {
+			instance = new Item();
+		}
+		return instance;
+	}
+	
+	public void setName(String n) {
+		name = n;
+	}
+	
+	public void setType(String t) {
 		type = t;
-		quality = 0;
-		rarity = "common";
+	}
+	
+	public void setQuality(int i) {
+		quality = i;
+	}
+	public void setRarity(String r) {
+		rarity = r;
 	}
 	
 	public String getName() {

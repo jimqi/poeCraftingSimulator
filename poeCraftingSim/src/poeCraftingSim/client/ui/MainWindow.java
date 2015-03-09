@@ -8,6 +8,8 @@ import poeCraftingSim.client.items.Item;
 
 public class MainWindow extends JFrame {
 	
+	private Item item;
+	
 	private JLabel itemPanel;
 	private ControlToolbar controlToolbar;
 	
@@ -33,6 +35,14 @@ public class MainWindow extends JFrame {
 	public void updateItemPanel(Item i) {
 		itemPanel.setText("<html>Item Name:" + i.getName() + "<br>" 
 				+ "Item Rarity:" + i.getRarity() + "<br>" + "</html>");
+	}
+	
+	public void setItem(Item i) {
+		item = i;
+	}
+	
+	public Item getItem() {
+		return item;
 	}
 	
 	public static void main(String[] args) {

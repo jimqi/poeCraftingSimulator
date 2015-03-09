@@ -6,11 +6,12 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 import poeCraftingSim.client.items.Item;
+import poeCraftingSim.client.orbs.TransmutationOrb;
 
 public class ControlToolbar extends JToolBar {
 	
 	private MainWindow main;
-	private JButton testButton;
+	private JButton testButton, testItemButton;
 	
 	public ControlToolbar(MainWindow mainWindow) {
 		
@@ -23,12 +24,24 @@ public class ControlToolbar extends JToolBar {
 		testButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Item testItem = new Item("test");
+				Item testItem = Item.getInstance();
+				main.setItem(testItem);
+				main.updateItemPanel(testItem);
+			}
+		});
+		
+		testItemButton = new JButton("testItem");
+		testItemButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Item testItem = main.getItem();;
+				TransmutationOrb.use(testItem);
 				main.updateItemPanel(testItem);
 			}
 		});
 		
 		this.add(testButton);
+		this.add(testItemButton);
 		
 	}
 
