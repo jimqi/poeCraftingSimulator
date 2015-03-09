@@ -10,26 +10,20 @@ public class MainWindow extends JFrame {
 	
 	private Item item;
 	
+	private ItemCreationPanel creationPanel;
 	private JLabel itemPanel;
-	private ControlToolbar controlToolbar;
+	
 	
 	private MainWindow() {
 		
 		JFrame frame = new JFrame("POE Crafting Simulator");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		controlToolbar = new ControlToolbar(this);
-		
-		itemPanel = new JLabel();
-		itemPanel.setHorizontalAlignment(SwingConstants.CENTER);
-		itemPanel.setText("<html>Item Name:" + "<br>" 
-							+ "Item Rarity:" + "<br>" + "</html>");
-		
-		frame.getContentPane().add(itemPanel);
-		frame.add(controlToolbar, BorderLayout.PAGE_START);
-		
-		frame.pack();
+		ItemCreationPanel test = new ItemCreationPanel();
+		frame.getContentPane().add(test);
+		frame.setSize(400, 300);
 		frame.setVisible(true);
+
 	}
 	
 	public void updateItemPanel(Item i) {
