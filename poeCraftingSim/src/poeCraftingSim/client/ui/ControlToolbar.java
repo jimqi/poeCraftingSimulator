@@ -43,7 +43,6 @@ public class ControlToolbar extends JToolBar {
 			public void actionPerformed(ActionEvent e) {
 				ScouringOrb.use(testItem);
 				MainWindow.updateItemPanel(testItem);
-				System.out.println(testItem.getRarity());
 			}
 		});
 		

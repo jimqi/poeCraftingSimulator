@@ -1,25 +1,30 @@
 package poeCraftingSim.client.items;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Item {
 	private static volatile Item instance = null;
 
 	//Item Properties
-	String name;
-	String type;
-	String base;
-	String rarity;
-	String implicit;
-	int sockets;
-	int links;
-	int quality;
-	int itemLevel;
-	String[] prefix;
-	String[] suffix;
+	private String name;
+	private String type;
+	private String base;
+	private String rarity;
+	private List<String> implicit;
+	private int sockets;
+	private int links;
+	private int quality;
+	private int itemLevel;
+	private String[] prefix;
+	private String[] suffix;
+	private Requirments req;
 
 	protected Item() {
 		sockets = 1;
 		links = 1;
 		quality = 0;
+		implicit = new ArrayList<String>();
 		prefix = new String[3];
 		suffix = new String[3];
 	}
@@ -32,50 +37,59 @@ public class Item {
 	}
 	//set methods
 	public void setName(String n) {
-		name = n;
+		this.name = n;
 	}
 
 	public void setItemLevel(int i) {
-		itemLevel = i;
+		this.itemLevel = i;
 	}
 
 	public void setType(String t) {
-		type = t;
+		this.type = t;
 	}
 
 	public void setBase(String b) {
-		base = b;
+		this.base = b;
 	}
 
 	public void setQuality(int i) {
-		quality = i;
+		this.quality = i;
 	}
 	public void setRarity(String r) {
-		rarity = r;
+		this.rarity = r;
 	}
-	
+
+	/**
+	 * Puts the mod into the first open mod space or does nothing if no open spaces left
+	 * 
+	 * @param s
+	 * 			specifys prefix/suffix
+	 * @param m
+	 * 			the mod to be added
+	 */
 	public void setMod(String s, String m) {
 		int i = 0;
-		if (s == "prefix") {
+		if (s == "Prefix") {
 			while (i < prefix.length) {
 				if (prefix[i] == null){
-					prefix[i] = s;
+					prefix[i] = m;
 					return;
 				}
 				i++;
 			}	
 		}
-		else if (s == "suffix") {
+		else if (s == "Suffix") {
 			while (i < suffix.length) {
 				if (suffix[i] == null){
-					suffix[i] = s;
+					suffix[i] = m;
 					return;
 				}
 				i++;
 			}
 		}
-		else if (s == "implicit") {
-			implicit = m;
+		else if (s == "Implicit") {
+			implicit.add(m);
+			return;
 		}
 		System.out.println("invalid set mod field");
 	}
@@ -124,19 +138,47 @@ public class Item {
 				return "empty suffix";
 		}
 		else if (s == "implicit")
-			return implicit;
+			if (implicit.get(i) != null)
+				return implicit.get(i);
+			else
+				return null;
 		else
 			return "invalid";
 	}
-	
-	public String getMod(String s) {
-		return getMod(s, 0);
+
+	public String[] getMod(String s) {
+		String[] result = null;
+		int modNumber;
+		switch (s) {
+		case "implicit":
+			modNumber = implicit.size();
+			result = new String[modNumber];
+			for (int i = 0; i < modNumber; i++) {
+				result[i] = getMod(s, 0);
+			}
+			break;
+		case "prefix":
+			modNumber = prefix.length;
+			result = new String[modNumber];
+			for (int i = 0; i < modNumber; i++) {
+				result[i] = getMod(s, i);
+			}
+			break;
+		case "suffix":
+			modNumber = suffix.length;
+			result = new String[modNumber];
+			for (int i = 0; i < modNumber; i++) {
+				result[i] = getMod(s, i);
+			}
+			break;
+		}
+		return result;
 	}
 
 	public void changeRarity(String r) {
 		rarity = r;
 	}
-	
+
 	public void resetAffix() {
 		for (int i = 0; i < prefix.length; i++) {
 			prefix[i] = null;

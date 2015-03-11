@@ -17,7 +17,7 @@ public class MainWindow extends JFrame {
 
 	private ItemCreationPanel creationPanel;
 	private static ItemCraftingPanel craftingPanel;
-	
+
 	private static ControlToolbar toolbar;	
 
 	private MainWindow() {
@@ -34,23 +34,21 @@ public class MainWindow extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				//TODO
 				//Create Item
-				
+
 				if (creationPanel.getType() != "select type" && creationPanel.getBase() != "select base" && creationPanel.getRarity() != "select rarity" && creationPanel.getItemLevel() != -1) {
 					item = Item.getInstance();
 					item.setType(creationPanel.getType());
 					item.setBase(creationPanel.getBase());
 					item.setRarity(creationPanel.getRarity());
 					item.setItemLevel(creationPanel.getItemLevel());
+					item.setMod("Implicit", "test");
 
 					craftingPanel = new ItemCraftingPanel();
 					creationPanel.setVisible(false);;
 					createItem.setVisible(false);
-					toolbar = new ControlToolbar();
-					cb.add(toolbar);
+					//toolbar = new ControlToolbar();
+					//cb.add(toolbar);
 					cb.add(craftingPanel);
-					ModParser.test();
-
-					
 				}
 				else
 					System.out.println("missing fields");
@@ -73,13 +71,13 @@ public class MainWindow extends JFrame {
 	public static Item getItem() {
 		return item;
 	}
-	
+
 	public static void updateItemPanel(Item i) {
 		cb.removeAll();
 		cb.revalidate();
 		cb.repaint();
-		toolbar = new ControlToolbar();
-		cb.add(toolbar);
+		//toolbar = new ControlToolbar();
+		//cb.add(toolbar);
 		craftingPanel = new ItemCraftingPanel();
 		cb.add(craftingPanel);
 	}

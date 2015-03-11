@@ -52,7 +52,7 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 		models[0] = new DefaultComboBoxModel<String>(
 				new String[] { " " });
 		models[1] = new DefaultComboBoxModel<String>(
-				new String[] { "select armor", "Helm", "Chest", "Gloves", "Boots", "Shield" });
+				new String[] { "select armor", "Helm", "Chest", "Gloves", "Boots", "Shield", "Quiver" });
 		models[2] = new DefaultComboBoxModel<String>(
 				new 	String[] { "select weapons", "Bow", "Claw", "Dagger", "One-Handed Axe", "One-Handed Mace", "One-Handed Sword",
 						"Sceptre", "Staff", "Two-Handed Axe", "Two-Handed Mace", "Two-Handed Sword", "Wand" });

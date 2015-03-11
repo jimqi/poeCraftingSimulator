@@ -2,6 +2,7 @@ package poeCraftingSim.client.ui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -27,21 +28,29 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
 		
 		//create the panel to display the item stats
 		JPanel itemPanel = new JPanel();
-		String p1, p2, p3, s1, s2, s3, implicit;
-		implicit = item.getMod("implicit");
-		p1 = item.getMod("prefix", 0);
-		p2 = item.getMod("prefix", 1);
-		p3 = item.getMod("prefix", 2);
-		s1 = item.getMod("suffix", 0);
-		s2 = item.getMod("suffix", 1);
-		s3 = item.getMod("suffix", 2);
+		String[] prefixes, suffixes, implicits;
+		implicits = item.getMod("implicit");
+		prefixes = item.getMod("prefix");
+		suffixes = item.getMod("suffix");
+		String itemDisplay = "";
+		//build the affix string
+		itemDisplay = itemDisplay.concat("Implicits:<br> ");
+		for (int i = 0; i < implicits.length; i++) {
+			itemDisplay = itemDisplay.concat(implicits[i] + "<br>");
+		}
+		itemDisplay = itemDisplay.concat("Prefixes:<br> ");
+		for (int i = 0; i < prefixes.length; i++) {
+			itemDisplay = itemDisplay.concat(prefixes[i] + "<br>");
+		}
+		itemDisplay = itemDisplay.concat("Suffixes:<br> ");
+		for (int i = 0; i < suffixes.length; i++) {
+			itemDisplay = itemDisplay.concat(suffixes[i] + "<br>");
+		}
 		display = new JLabel("<html>Item Type:" + item.getType() + "<br>" 
 				+ "Item Base:" + item.getBase() + "<br>"
 				+ "Item Rarity:" + item.getRarity() + "<br>"
 				+ "Item Level:" + item.getItemLevel() + "<br>"
-				+ "Implicit: " + implicit + "<br>"
-				+ "Prefixes: " + p1 + p2 + p3 + "<br>" 
-				+ "Suffixes: " + s1 + s2 + s3 + "</html>");
+				+ itemDisplay + "</html>");
 		itemPanel.add(display);
 		
 		add(itemPanel);
@@ -63,8 +72,17 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
 			}
 		});
 		
+		scouring = new JButton("Scouring Orb");
+		scouring.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ScouringOrb.use(item);
+				MainWindow.updateItemPanel(item);
+			}
+		});
+		
 		add(transmutation);
 		add(regal);
+		add(scouring);
 		
 	}
 	
