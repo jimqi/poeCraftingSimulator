@@ -1,0 +1,28 @@
+Require
+Name: string
+Item type: weapon, shield, quiver, armor, helmet, boots, gloves, jewelery/belt
+Base Type: string
+Rarity: common/magic/rare/unique
+quality: int 0-20
+3 prefix
+3 suffix
+sockets: int 1-6
+links: int 1-6 <= sockets
+required dex: int
+required str: int
+required int: int
+rarity: common/magic/rare/unique
+item level: int
+required level: int <= item level
+implicit: string
+
+Subtypes
+armor:
+	armor: int
+	evasion: int
+	energy shield: int
+weapon:
+	min damage: int
+	max damage: int
+	attack speed: float
+	crit chance: intx

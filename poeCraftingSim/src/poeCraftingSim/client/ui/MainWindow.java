@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
+import poeCraftingSim.client.functionality.ModParser;
 import poeCraftingSim.client.items.Item;
 
 public class MainWindow extends JFrame {
@@ -47,6 +48,7 @@ public class MainWindow extends JFrame {
 					toolbar = new ControlToolbar();
 					cb.add(toolbar);
 					cb.add(craftingPanel);
+					ModParser.test();
 
 					
 				}
