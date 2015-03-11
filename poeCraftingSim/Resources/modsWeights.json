@@ -1,0 +1,5962 @@
+{
+  "prefix": {
+    "1hswords": {
+      "Frosted": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Chilled": {
+        "level": 12,
+        "weight": 10000
+      },
+      "Icy": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Frigid": {
+        "level": 27,
+        "weight": 10000
+      },
+      "Freezing": {
+        "level": 34,
+        "weight": 10000
+      },
+      "Frozen": {
+        "level": 43,
+        "weight": 10000
+      },
+      "Glaciated": {
+        "level": 52,
+        "weight": 10000
+      },
+      "Polar": {
+        "level": 63,
+        "weight": 10000
+      },
+      "Entombing": {
+        "level": 75,
+        "weight": 10000
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Smoldering": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Smoking": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Burning": {
+        "level": 26,
+        "weight": 10000
+      },
+      "Flaming": {
+        "level": 33,
+        "weight": 10000
+      },
+      "Scorching": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Incinerating": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Blasting": {
+        "level": 62,
+        "weight": 10000
+      },
+      "Cremating": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 10000
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 10000
+      },
+      "Snapping": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Crackling": {
+        "level": 31,
+        "weight": 10000
+      },
+      "Sparking": {
+        "level": 34,
+        "weight": 10000
+      },
+      "Arcing": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Shocking": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Discharging": {
+        "level": 63,
+        "weight": 10000
+      },
+      "Electrocuting": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 8333
+      },
+      "Glinting": {
+        "level": 2,
+        "weight": 8333
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 8333
+      },
+      "Polished": {
+        "level": 21,
+        "weight": 8333
+      },
+      "Honed": {
+        "level": 29,
+        "weight": 8333
+      },
+      "Gleaming": {
+        "level": 36,
+        "weight": 8333
+      },
+      "Annealed": {
+        "level": 46,
+        "weight": 8333
+      },
+      "Razor Sharp": {
+        "level": 54,
+        "weight": 8333
+      },
+      "Tempered": {
+        "level": 65,
+        "weight": 8333
+      },
+      "Flaring": {
+        "level": 77,
+        "weight": 8333
+      },
+      "Heavy": {
+        "level": 1,
+        "weight": 8333
+      },
+      "Serrated": {
+        "level": 11,
+        "weight": 8333
+      },
+      "Wicked": {
+        "level": 23,
+        "weight": 8333
+      },
+      "Squire's": {
+        "level": 1,
+        "weight": 8333
+      },
+      "Journeyman's": {
+        "level": 11,
+        "weight": 8333
+      },
+      "Reaver's": {
+        "level": 23,
+        "weight": 8333
+      },
+      "Weaponmaster's": {
+        "level": 63,
+        "weight": 8333
+      },
+      "Combatant's": {
+        "level": 8,
+        "weight": 8333
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 8333
+      },
+      "Lamprey's": {
+        "level": 25,
+        "weight": 4164
+      },
+      "Vicious": {
+        "level": 35,
+        "weight": 3333
+      },
+      "Mercenary's": {
+        "level": 35,
+        "weight": 3333
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 2497
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 2497
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 2497
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 2497
+      },
+      "Vampire's": {
+        "level": 72,
+        "weight": 2084
+      },
+      "Paragon's": {
+        "level": 50,
+        "weight": 2084
+      },
+      "Bloodthirsty": {
+        "level": 46,
+        "weight": 1666
+      },
+      "Champion's": {
+        "level": 46,
+        "weight": 1666
+      },
+      "Cruel": {
+        "level": 60,
+        "weight": 831
+      },
+      "Conqueror's": {
+        "level": 60,
+        "weight": 831
+      },
+      "Tyrannical": {
+        "level": 73,
+        "weight": 417
+      },
+      "Emperor's": {
+        "level": 73,
+        "weight": 417
+      }
+    },
+    "2haxes": {
+      "Frosted": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Chilled": {
+        "level": 12,
+        "weight": 10000
+      },
+      "Icy": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Frigid": {
+        "level": 27,
+        "weight": 10000
+      },
+      "Freezing": {
+        "level": 34,
+        "weight": 10000
+      },
+      "Frozen": {
+        "level": 43,
+        "weight": 10000
+      },
+      "Glaciated": {
+        "level": 52,
+        "weight": 10000
+      },
+      "Polar": {
+        "level": 63,
+        "weight": 10000
+      },
+      "Entombing": {
+        "level": 75,
+        "weight": 10000
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Smoldering": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Smoking": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Burning": {
+        "level": 26,
+        "weight": 10000
+      },
+      "Flaming": {
+        "level": 33,
+        "weight": 10000
+      },
+      "Scorching": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Incinerating": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Blasting": {
+        "level": 62,
+        "weight": 10000
+      },
+      "Cremating": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 10000
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 10000
+      },
+      "Snapping": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Crackling": {
+        "level": 31,
+        "weight": 10000
+      },
+      "Sparking": {
+        "level": 34,
+        "weight": 10000
+      },
+      "Arcing": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Shocking": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Discharging": {
+        "level": 63,
+        "weight": 10000
+      },
+      "Electrocuting": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 8333
+      },
+      "Glinting": {
+        "level": 2,
+        "weight": 8333
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 8333
+      },
+      "Polished": {
+        "level": 21,
+        "weight": 8333
+      },
+      "Honed": {
+        "level": 29,
+        "weight": 8333
+      },
+      "Gleaming": {
+        "level": 36,
+        "weight": 8333
+      },
+      "Annealed": {
+        "level": 46,
+        "weight": 8333
+      },
+      "Razor Sharp": {
+        "level": 54,
+        "weight": 8333
+      },
+      "Tempered": {
+        "level": 65,
+        "weight": 8333
+      },
+      "Flaring": {
+        "level": 77,
+        "weight": 8333
+      },
+      "Heavy": {
+        "level": 1,
+        "weight": 8333
+      },
+      "Serrated": {
+        "level": 11,
+        "weight": 8333
+      },
+      "Wicked": {
+        "level": 23,
+        "weight": 8333
+      },
+      "Squire's": {
+        "level": 1,
+        "weight": 8333
+      },
+      "Journeyman's": {
+        "level": 11,
+        "weight": 8333
+      },
+      "Reaver's": {
+        "level": 23,
+        "weight": 8333
+      },
+      "Weaponmaster's": {
+        "level": 63,
+        "weight": 8333
+      },
+      "Combatant's": {
+        "level": 8,
+        "weight": 8333
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 8333
+      },
+      "Lamprey's": {
+        "level": 25,
+        "weight": 4164
+      },
+      "Vicious": {
+        "level": 35,
+        "weight": 3333
+      },
+      "Mercenary's": {
+        "level": 35,
+        "weight": 3333
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 2497
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 2497
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 2497
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 2497
+      },
+      "Vampire's": {
+        "level": 72,
+        "weight": 2084
+      },
+      "Paragon's": {
+        "level": 50,
+        "weight": 2084
+      },
+      "Bloodthirsty": {
+        "level": 46,
+        "weight": 1666
+      },
+      "Champion's": {
+        "level": 46,
+        "weight": 1666
+      },
+      "Cruel": {
+        "level": 60,
+        "weight": 831
+      },
+      "Conqueror's": {
+        "level": 60,
+        "weight": 831
+      },
+      "Tyrannical": {
+        "level": 73,
+        "weight": 417
+      },
+      "Emperor's": {
+        "level": 73,
+        "weight": 417
+      }
+    },
+    "amulets": {
+      "Glinting": {
+        "level": 5,
+        "weight": 10000
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 10000
+      },
+      "Polished": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Honed": {
+        "level": 28,
+        "weight": 10000
+      },
+      "Gleaming": {
+        "level": 35,
+        "weight": 10000
+      },
+      "Annealed": {
+        "level": 44,
+        "weight": 10000
+      },
+      "Razor Sharp": {
+        "level": 52,
+        "weight": 10000
+      },
+      "Tempered": {
+        "level": 64,
+        "weight": 10000
+      },
+      "Flaring": {
+        "level": 76,
+        "weight": 10000
+      },
+      "Shining": {
+        "level": 3,
+        "weight": 10000
+      },
+      "Incandescent": {
+        "level": 68,
+        "weight": 10000
+      },
+      "Resplendent": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Glimmering": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Glittering": {
+        "level": 17,
+        "weight": 10000
+      },
+      "Glowing": {
+        "level": 23,
+        "weight": 10000
+      },
+      "Radiating": {
+        "level": 29,
+        "weight": 10000
+      },
+      "Pulsing": {
+        "level": 35,
+        "weight": 10000
+      },
+      "Seething": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Blazing": {
+        "level": 50,
+        "weight": 10000
+      },
+      "Scintillating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "Protective": {
+        "level": 3,
+        "weight": 10000
+      },
+      "Strong-Willed": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Resolute": {
+        "level": 30,
+        "weight": 10000
+      },
+      "Fearless": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Dauntless": {
+        "level": 56,
+        "weight": 10000
+      },
+      "Indomitable": {
+        "level": 70,
+        "weight": 10000
+      },
+      "Unassailable": {
+        "level": 77,
+        "weight": 10000
+      },
+      "Agile": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Dancer's": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Acrobat's": {
+        "level": 30,
+        "weight": 10000
+      },
+      "Fleet": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Blurred": {
+        "level": 56,
+        "weight": 10000
+      },
+      "Phased": {
+        "level": 70,
+        "weight": 10000
+      },
+      "Vaporous": {
+        "level": 77,
+        "weight": 10000
+      },
+      "Healthy": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Sanguine": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Stalwart": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Stout": {
+        "level": 24,
+        "weight": 10000
+      },
+      "Robust": {
+        "level": 30,
+        "weight": 10000
+      },
+      "Rotund": {
+        "level": 36,
+        "weight": 10000
+      },
+      "Virile": {
+        "level": 44,
+        "weight": 10000
+      },
+      "Beryl": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Mazarine": {
+        "level": 69,
+        "weight": 10000
+      },
+      "Blue": {
+        "level": 75,
+        "weight": 10000
+      },
+      "Cobalt": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Azure": {
+        "level": 17,
+        "weight": 10000
+      },
+      "Sapphire": {
+        "level": 23,
+        "weight": 10000
+      },
+      "Cerulean": {
+        "level": 29,
+        "weight": 10000
+      },
+      "Aqua": {
+        "level": 35,
+        "weight": 10000
+      },
+      "Opalescent": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Gentian": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Chalybeous": {
+        "level": 60,
+        "weight": 10000
+      },
+      "Reinforced": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Layered": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Lobstered": {
+        "level": 30,
+        "weight": 10000
+      },
+      "Buttressed": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Thickened": {
+        "level": 56,
+        "weight": 10000
+      },
+      "Solid": {
+        "level": 70,
+        "weight": 10000
+      },
+      "Impregnable": {
+        "level": 77,
+        "weight": 10000
+      },
+      "Magpie's": {
+        "level": 20,
+        "weight": 10000
+      },
+      "Pirate's": {
+        "level": 39,
+        "weight": 10000
+      },
+      "Dragon's": {
+        "level": 62,
+        "weight": 10000
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 10000
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 10000
+      },
+      "Parched": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Chanter's": {
+        "level": 5,
+        "weight": 10000
+      },
+      "Mage's": {
+        "level": 20,
+        "weight": 10000
+      },
+      "Sorcerer's": {
+        "level": 38,
+        "weight": 10000
+      },
+      "Thaumaturgist's": {
+        "level": 56,
+        "weight": 10000
+      },
+      "Wizard's": {
+        "level": 76,
+        "weight": 10000
+      },
+      "Frosted": {
+        "level": 2,
+        "weight": 4995
+      },
+      "Chilled": {
+        "level": 13,
+        "weight": 4995
+      },
+      "Icy": {
+        "level": 21,
+        "weight": 4995
+      },
+      "Frigid": {
+        "level": 29,
+        "weight": 4995
+      },
+      "Freezing": {
+        "level": 36,
+        "weight": 4995
+      },
+      "Frozen": {
+        "level": 45,
+        "weight": 4995
+      },
+      "Glaciated": {
+        "level": 53,
+        "weight": 4995
+      },
+      "Polar": {
+        "level": 65,
+        "weight": 4995
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 4995
+      },
+      "Smoldering": {
+        "level": 12,
+        "weight": 4995
+      },
+      "Smoking": {
+        "level": 20,
+        "weight": 4995
+      },
+      "Burning": {
+        "level": 28,
+        "weight": 4995
+      },
+      "Flaming": {
+        "level": 35,
+        "weight": 4995
+      },
+      "Scorching": {
+        "level": 44,
+        "weight": 4995
+      },
+      "Incinerating": {
+        "level": 52,
+        "weight": 4995
+      },
+      "Blasting": {
+        "level": 64,
+        "weight": 4995
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 4995
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 4995
+      },
+      "Snapping": {
+        "level": 22,
+        "weight": 4995
+      },
+      "Crackling": {
+        "level": 28,
+        "weight": 4995
+      },
+      "Sparking": {
+        "level": 35,
+        "weight": 4995
+      },
+      "Arcing": {
+        "level": 44,
+        "weight": 4995
+      },
+      "Shocking": {
+        "level": 52,
+        "weight": 4995
+      },
+      "Discharging": {
+        "level": 64,
+        "weight": 4995
+      },
+      "Lamprey's": {
+        "level": 25,
+        "weight": 4995
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 2997
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 2997
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 2997
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 2997
+      },
+      "Entombing": {
+        "level": 77,
+        "weight": 2497
+      },
+      "Cremating": {
+        "level": 76,
+        "weight": 2497
+      },
+      "Electrocuting": {
+        "level": 76,
+        "weight": 2497
+      },
+      "Vampire's": {
+        "level": 72,
+        "weight": 2497
+      }
+    },
+    "bows": {
+      "Frosted": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Chilled": {
+        "level": 12,
+        "weight": 10000
+      },
+      "Icy": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Frigid": {
+        "level": 27,
+        "weight": 10000
+      },
+      "Freezing": {
+        "level": 34,
+        "weight": 10000
+      },
+      "Frozen": {
+        "level": 43,
+        "weight": 10000
+      },
+      "Glaciated": {
+        "level": 52,
+        "weight": 10000
+      },
+      "Polar": {
+        "level": 63,
+        "weight": 10000
+      },
+      "Entombing": {
+        "level": 75,
+        "weight": 10000
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Smoldering": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Smoking": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Burning": {
+        "level": 26,
+        "weight": 10000
+      },
+      "Flaming": {
+        "level": 33,
+        "weight": 10000
+      },
+      "Scorching": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Incinerating": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Blasting": {
+        "level": 62,
+        "weight": 10000
+      },
+      "Cremating": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 10000
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 10000
+      },
+      "Snapping": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Crackling": {
+        "level": 31,
+        "weight": 10000
+      },
+      "Sparking": {
+        "level": 34,
+        "weight": 10000
+      },
+      "Arcing": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Shocking": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Discharging": {
+        "level": 63,
+        "weight": 10000
+      },
+      "Electrocuting": {
+        "level": 74,
+        "weight": 10000
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 7144
+      },
+      "Glinting": {
+        "level": 2,
+        "weight": 7144
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 7144
+      },
+      "Polished": {
+        "level": 21,
+        "weight": 7144
+      },
+      "Honed": {
+        "level": 29,
+        "weight": 7144
+      },
+      "Gleaming": {
+        "level": 36,
+        "weight": 7144
+      },
+      "Annealed": {
+        "level": 46,
+        "weight": 7144
+      },
+      "Razor Sharp": {
+        "level": 54,
+        "weight": 7144
+      },
+      "Tempered": {
+        "level": 65,
+        "weight": 7144
+      },
+      "Flaring": {
+        "level": 77,
+        "weight": 7144
+      },
+      "Heavy": {
+        "level": 1,
+        "weight": 7144
+      },
+      "Serrated": {
+        "level": 11,
+        "weight": 7144
+      },
+      "Wicked": {
+        "level": 23,
+        "weight": 7144
+      },
+      "Squire's": {
+        "level": 1,
+        "weight": 7144
+      },
+      "Journeyman's": {
+        "level": 11,
+        "weight": 7144
+      },
+      "Reaver's": {
+        "level": 23,
+        "weight": 7144
+      },
+      "Fletcher's": {
+        "level": 9,
+        "weight": 7144
+      },
+      "Sharpshooter's": {
+        "level": 64,
+        "weight": 7144
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 7144
+      },
+      "Vicious": {
+        "level": 35,
+        "weight": 2855
+      },
+      "Mercenary's": {
+        "level": 35,
+        "weight": 2855
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 2142
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 2142
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 2142
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 2142
+      },
+      "Paragon's": {
+        "level": 50,
+        "weight": 1784
+      },
+      "Bloodthirsty": {
+        "level": 46,
+        "weight": 1429
+      },
+      "Champion's": {
+        "level": 46,
+        "weight": 1429
+      },
+      "Cruel": {
+        "level": 60,
+        "weight": 712
+      },
+      "Conqueror's": {
+        "level": 60,
+        "weight": 712
+      },
+      "Tyrannical": {
+        "level": 73,
+        "weight": 358
+      },
+      "Emperor's": {
+        "level": 73,
+        "weight": 358
+      }
+    },
+    "daggers": {
+      "Caster's": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Conjuror's": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Wizard's": {
+        "level": 23,
+        "weight": 10000
+      },
+      "Frosted": {
+        "level": 2,
+        "weight": 7997
+      },
+      "Chilled": {
+        "level": 12,
+        "weight": 7997
+      },
+      "Icy": {
+        "level": 19,
+        "weight": 7997
+      },
+      "Frigid": {
+        "level": 27,
+        "weight": 7997
+      },
+      "Freezing": {
+        "level": 34,
+        "weight": 7997
+      },
+      "Frozen": {
+        "level": 43,
+        "weight": 7997
+      },
+      "Glaciated": {
+        "level": 52,
+        "weight": 7997
+      },
+      "Polar": {
+        "level": 63,
+        "weight": 7997
+      },
+      "Entombing": {
+        "level": 75,
+        "weight": 7997
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 7997
+      },
+      "Smoldering": {
+        "level": 11,
+        "weight": 7997
+      },
+      "Smoking": {
+        "level": 18,
+        "weight": 7997
+      },
+      "Burning": {
+        "level": 26,
+        "weight": 7997
+      },
+      "Flaming": {
+        "level": 33,
+        "weight": 7997
+      },
+      "Scorching": {
+        "level": 42,
+        "weight": 7997
+      },
+      "Incinerating": {
+        "level": 51,
+        "weight": 7997
+      },
+      "Blasting": {
+        "level": 62,
+        "weight": 7997
+      },
+      "Cremating": {
+        "level": 74,
+        "weight": 7997
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 7997
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 7997
+      },
+      "Snapping": {
+        "level": 19,
+        "weight": 7997
+      },
+      "Crackling": {
+        "level": 31,
+        "weight": 7997
+      },
+      "Sparking": {
+        "level": 34,
+        "weight": 7997
+      },
+      "Arcing": {
+        "level": 42,
+        "weight": 7997
+      },
+      "Shocking": {
+        "level": 51,
+        "weight": 7997
+      },
+      "Discharging": {
+        "level": 63,
+        "weight": 7997
+      },
+      "Electrocuting": {
+        "level": 74,
+        "weight": 7997
+      },
+      "Beryl": {
+        "level": 1,
+        "weight": 6668
+      },
+      "Mazarine": {
+        "level": 69,
+        "weight": 6668
+      },
+      "Blue": {
+        "level": 75,
+        "weight": 6668
+      },
+      "Cobalt": {
+        "level": 11,
+        "weight": 6668
+      },
+      "Azure": {
+        "level": 17,
+        "weight": 6668
+      },
+      "Sapphire": {
+        "level": 23,
+        "weight": 6668
+      },
+      "Cerulean": {
+        "level": 29,
+        "weight": 6668
+      },
+      "Aqua": {
+        "level": 35,
+        "weight": 6668
+      },
+      "Opalescent": {
+        "level": 42,
+        "weight": 6668
+      },
+      "Gentian": {
+        "level": 51,
+        "weight": 6668
+      },
+      "Chalybeous": {
+        "level": 60,
+        "weight": 6668
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 6668
+      },
+      "Glinting": {
+        "level": 2,
+        "weight": 6668
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 6668
+      },
+      "Polished": {
+        "level": 21,
+        "weight": 6668
+      },
+      "Honed": {
+        "level": 29,
+        "weight": 6668
+      },
+      "Gleaming": {
+        "level": 36,
+        "weight": 6668
+      },
+      "Annealed": {
+        "level": 46,
+        "weight": 6668
+      },
+      "Razor Sharp": {
+        "level": 54,
+        "weight": 6668
+      },
+      "Tempered": {
+        "level": 65,
+        "weight": 6668
+      },
+      "Flaring": {
+        "level": 77,
+        "weight": 6668
+      },
+      "Heavy": {
+        "level": 1,
+        "weight": 6668
+      },
+      "Serrated": {
+        "level": 11,
+        "weight": 6668
+      },
+      "Wicked": {
+        "level": 23,
+        "weight": 6668
+      },
+      "Squire's": {
+        "level": 1,
+        "weight": 6668
+      },
+      "Journeyman's": {
+        "level": 11,
+        "weight": 6668
+      },
+      "Reaver's": {
+        "level": 23,
+        "weight": 6668
+      },
+      "Frost Weaver's": {
+        "level": 2,
+        "weight": 6668
+      },
+      "Winterbringer's": {
+        "level": 55,
+        "weight": 6668
+      },
+      "Flame Spinner's": {
+        "level": 2,
+        "weight": 6668
+      },
+      "Lava Caller's": {
+        "level": 55,
+        "weight": 6668
+      },
+      "Thunder Lord's": {
+        "level": 2,
+        "weight": 6668
+      },
+      "Tempest King's": {
+        "level": 55,
+        "weight": 6668
+      },
+      "Weaponmaster's": {
+        "level": 63,
+        "weight": 6668
+      },
+      "Combatant's": {
+        "level": 8,
+        "weight": 6668
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 6668
+      },
+      "Apprentice's": {
+        "level": 2,
+        "weight": 6668
+      },
+      "Adept's": {
+        "level": 11,
+        "weight": 6668
+      },
+      "Scholar's": {
+        "level": 23,
+        "weight": 6668
+      },
+      "Warlock's": {
+        "level": 35,
+        "weight": 3998
+      },
+      "Lamprey's": {
+        "level": 25,
+        "weight": 3331
+      },
+      "Vicious": {
+        "level": 35,
+        "weight": 2664
+      },
+      "Mercenary's": {
+        "level": 35,
+        "weight": 2664
+      },
+      "Professor's": {
+        "level": 35,
+        "weight": 2664
+      },
+      "Mage's": {
+        "level": 46,
+        "weight": 2002
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 2002
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 2002
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 2002
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 2002
+      },
+      "Vampire's": {
+        "level": 72,
+        "weight": 1665
+      },
+      "Paragon's": {
+        "level": 50,
+        "weight": 1665
+      },
+      "Bloodthirsty": {
+        "level": 46,
+        "weight": 1334
+      },
+      "Champion's": {
+        "level": 46,
+        "weight": 1334
+      },
+      "Occultist's": {
+        "level": 46,
+        "weight": 1334
+      },
+      "Archmage's": {
+        "level": 58,
+        "weight": 998
+      },
+      "Cruel": {
+        "level": 60,
+        "weight": 667
+      },
+      "Conqueror's": {
+        "level": 60,
+        "weight": 667
+      },
+      "Incanter's": {
+        "level": 58,
+        "weight": 667
+      },
+      "Tyrannical": {
+        "level": 73,
+        "weight": 330
+      },
+      "Emperor's": {
+        "level": 73,
+        "weight": 330
+      },
+      "Glyphic": {
+        "level": 79,
+        "weight": 330
+      }
+    },
+    "rings": {
+      "Glinting": {
+        "level": 5,
+        "weight": 10000
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 10000
+      },
+      "Polished": {
+        "level": 19,
+        "weight": 10000
+      },
+      "Honed": {
+        "level": 28,
+        "weight": 10000
+      },
+      "Gleaming": {
+        "level": 35,
+        "weight": 10000
+      },
+      "Annealed": {
+        "level": 44,
+        "weight": 10000
+      },
+      "Shining": {
+        "level": 3,
+        "weight": 10000
+      },
+      "Incandescent": {
+        "level": 68,
+        "weight": 10000
+      },
+      "Glimmering": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Glittering": {
+        "level": 17,
+        "weight": 10000
+      },
+      "Glowing": {
+        "level": 23,
+        "weight": 10000
+      },
+      "Radiating": {
+        "level": 29,
+        "weight": 10000
+      },
+      "Pulsing": {
+        "level": 35,
+        "weight": 10000
+      },
+      "Seething": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Blazing": {
+        "level": 50,
+        "weight": 10000
+      },
+      "Scintillating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "Agile": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Dancer's": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Acrobat's": {
+        "level": 29,
+        "weight": 10000
+      },
+      "Fleet": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Blurred": {
+        "level": 58,
+        "weight": 10000
+      },
+      "Phased": {
+        "level": 72,
+        "weight": 10000
+      },
+      "Healthy": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Sanguine": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Stalwart": {
+        "level": 18,
+        "weight": 10000
+      },
+      "Stout": {
+        "level": 24,
+        "weight": 10000
+      },
+      "Robust": {
+        "level": 30,
+        "weight": 10000
+      },
+      "Rotund": {
+        "level": 36,
+        "weight": 10000
+      },
+      "Virile": {
+        "level": 44,
+        "weight": 10000
+      },
+      "Beryl": {
+        "level": 1,
+        "weight": 10000
+      },
+      "Mazarine": {
+        "level": 69,
+        "weight": 10000
+      },
+      "Blue": {
+        "level": 75,
+        "weight": 10000
+      },
+      "Cobalt": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Azure": {
+        "level": 17,
+        "weight": 10000
+      },
+      "Sapphire": {
+        "level": 23,
+        "weight": 10000
+      },
+      "Cerulean": {
+        "level": 29,
+        "weight": 10000
+      },
+      "Aqua": {
+        "level": 35,
+        "weight": 10000
+      },
+      "Opalescent": {
+        "level": 42,
+        "weight": 10000
+      },
+      "Gentian": {
+        "level": 51,
+        "weight": 10000
+      },
+      "Chalybeous": {
+        "level": 60,
+        "weight": 10000
+      },
+      "Magpie's": {
+        "level": 20,
+        "weight": 10000
+      },
+      "Pirate's": {
+        "level": 39,
+        "weight": 10000
+      },
+      "Dragon's": {
+        "level": 62,
+        "weight": 10000
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 10000
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 10000
+      },
+      "Frosted": {
+        "level": 2,
+        "weight": 5002
+      },
+      "Chilled": {
+        "level": 13,
+        "weight": 5002
+      },
+      "Icy": {
+        "level": 21,
+        "weight": 5002
+      },
+      "Frigid": {
+        "level": 29,
+        "weight": 5002
+      },
+      "Freezing": {
+        "level": 36,
+        "weight": 5002
+      },
+      "Frozen": {
+        "level": 45,
+        "weight": 5002
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 5002
+      },
+      "Smoldering": {
+        "level": 12,
+        "weight": 5002
+      },
+      "Smoking": {
+        "level": 20,
+        "weight": 5002
+      },
+      "Burning": {
+        "level": 28,
+        "weight": 5002
+      },
+      "Flaming": {
+        "level": 35,
+        "weight": 5002
+      },
+      "Scorching": {
+        "level": 44,
+        "weight": 5002
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 5002
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 5002
+      },
+      "Snapping": {
+        "level": 22,
+        "weight": 5002
+      },
+      "Crackling": {
+        "level": 28,
+        "weight": 5002
+      },
+      "Sparking": {
+        "level": 35,
+        "weight": 5002
+      },
+      "Arcing": {
+        "level": 44,
+        "weight": 5002
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 2999
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 2999
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 2999
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 2999
+      },
+      "Glaciated": {
+        "level": 53,
+        "weight": 1001
+      },
+      "Polar": {
+        "level": 65,
+        "weight": 1001
+      },
+      "Incinerating": {
+        "level": 52,
+        "weight": 1001
+      },
+      "Blasting": {
+        "level": 64,
+        "weight": 1001
+      },
+      "Shocking": {
+        "level": 52,
+        "weight": 1001
+      },
+      "Discharging": {
+        "level": 64,
+        "weight": 1001
+      },
+      "Entombing": {
+        "level": 77,
+        "weight": 498
+      },
+      "Cremating": {
+        "level": 76,
+        "weight": 498
+      },
+      "Electrocuting": {
+        "level": 76,
+        "weight": 498
+      }
+    },
+    "staffs": {
+      "Caster's": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Conjuror's": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Wizard's": {
+        "level": 23,
+        "weight": 10000
+      },
+      "Beryl": {
+        "level": 1,
+        "weight": 6666
+      },
+      "Mazarine": {
+        "level": 69,
+        "weight": 6666
+      },
+      "Blue": {
+        "level": 75,
+        "weight": 6666
+      },
+      "Cobalt": {
+        "level": 11,
+        "weight": 6666
+      },
+      "Azure": {
+        "level": 17,
+        "weight": 6666
+      },
+      "Sapphire": {
+        "level": 23,
+        "weight": 6666
+      },
+      "Cerulean": {
+        "level": 29,
+        "weight": 6666
+      },
+      "Aqua": {
+        "level": 35,
+        "weight": 6666
+      },
+      "Opalescent": {
+        "level": 42,
+        "weight": 6666
+      },
+      "Gentian": {
+        "level": 51,
+        "weight": 6666
+      },
+      "Chalybeous": {
+        "level": 60,
+        "weight": 6666
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 6666
+      },
+      "Glinting": {
+        "level": 2,
+        "weight": 6666
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 6666
+      },
+      "Polished": {
+        "level": 21,
+        "weight": 6666
+      },
+      "Honed": {
+        "level": 29,
+        "weight": 6666
+      },
+      "Gleaming": {
+        "level": 36,
+        "weight": 6666
+      },
+      "Annealed": {
+        "level": 46,
+        "weight": 6666
+      },
+      "Razor Sharp": {
+        "level": 54,
+        "weight": 6666
+      },
+      "Tempered": {
+        "level": 65,
+        "weight": 6666
+      },
+      "Flaring": {
+        "level": 77,
+        "weight": 6666
+      },
+      "Heavy": {
+        "level": 1,
+        "weight": 6666
+      },
+      "Serrated": {
+        "level": 11,
+        "weight": 6666
+      },
+      "Wicked": {
+        "level": 23,
+        "weight": 6666
+      },
+      "Squire's": {
+        "level": 1,
+        "weight": 6666
+      },
+      "Journeyman's": {
+        "level": 11,
+        "weight": 6666
+      },
+      "Reaver's": {
+        "level": 23,
+        "weight": 6666
+      },
+      "Frost Weaver's": {
+        "level": 2,
+        "weight": 6666
+      },
+      "Winterbringer's": {
+        "level": 55,
+        "weight": 6666
+      },
+      "Flame Spinner's": {
+        "level": 2,
+        "weight": 6666
+      },
+      "Lava Caller's": {
+        "level": 55,
+        "weight": 6666
+      },
+      "Thunder Lord's": {
+        "level": 2,
+        "weight": 6666
+      },
+      "Tempest King's": {
+        "level": 55,
+        "weight": 6666
+      },
+      "Weaponmaster's": {
+        "level": 63,
+        "weight": 6666
+      },
+      "Combatant's": {
+        "level": 8,
+        "weight": 6666
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 6666
+      },
+      "Apprentice's": {
+        "level": 2,
+        "weight": 6666
+      },
+      "Adept's": {
+        "level": 11,
+        "weight": 6666
+      },
+      "Scholar's": {
+        "level": 23,
+        "weight": 6666
+      },
+      "Frosted": {
+        "level": 2,
+        "weight": 3998
+      },
+      "Chilled": {
+        "level": 12,
+        "weight": 3998
+      },
+      "Icy": {
+        "level": 19,
+        "weight": 3998
+      },
+      "Frigid": {
+        "level": 27,
+        "weight": 3998
+      },
+      "Freezing": {
+        "level": 34,
+        "weight": 3998
+      },
+      "Frozen": {
+        "level": 43,
+        "weight": 3998
+      },
+      "Glaciated": {
+        "level": 52,
+        "weight": 3998
+      },
+      "Polar": {
+        "level": 63,
+        "weight": 3998
+      },
+      "Entombing": {
+        "level": 75,
+        "weight": 3998
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 3998
+      },
+      "Smoldering": {
+        "level": 11,
+        "weight": 3998
+      },
+      "Smoking": {
+        "level": 18,
+        "weight": 3998
+      },
+      "Burning": {
+        "level": 26,
+        "weight": 3998
+      },
+      "Flaming": {
+        "level": 33,
+        "weight": 3998
+      },
+      "Scorching": {
+        "level": 42,
+        "weight": 3998
+      },
+      "Incinerating": {
+        "level": 51,
+        "weight": 3998
+      },
+      "Blasting": {
+        "level": 62,
+        "weight": 3998
+      },
+      "Cremating": {
+        "level": 74,
+        "weight": 3998
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 3998
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 3998
+      },
+      "Snapping": {
+        "level": 19,
+        "weight": 3998
+      },
+      "Crackling": {
+        "level": 31,
+        "weight": 3998
+      },
+      "Sparking": {
+        "level": 34,
+        "weight": 3998
+      },
+      "Arcing": {
+        "level": 42,
+        "weight": 3998
+      },
+      "Shocking": {
+        "level": 51,
+        "weight": 3998
+      },
+      "Discharging": {
+        "level": 63,
+        "weight": 3998
+      },
+      "Electrocuting": {
+        "level": 74,
+        "weight": 3998
+      },
+      "Warlock's": {
+        "level": 35,
+        "weight": 3998
+      },
+      "Lamprey's": {
+        "level": 25,
+        "weight": 3333
+      },
+      "Vicious": {
+        "level": 35,
+        "weight": 2664
+      },
+      "Mercenary's": {
+        "level": 35,
+        "weight": 2664
+      },
+      "Professor's": {
+        "level": 35,
+        "weight": 2664
+      },
+      "Mage's": {
+        "level": 46,
+        "weight": 1999
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 1999
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 1999
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 1999
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 1999
+      },
+      "Vampire's": {
+        "level": 72,
+        "weight": 1664
+      },
+      "Paragon's": {
+        "level": 50,
+        "weight": 1664
+      },
+      "Bloodthirsty": {
+        "level": 46,
+        "weight": 1334
+      },
+      "Champion's": {
+        "level": 46,
+        "weight": 1334
+      },
+      "Occultist's": {
+        "level": 46,
+        "weight": 1334
+      },
+      "Archmage's": {
+        "level": 58,
+        "weight": 999
+      },
+      "Cruel": {
+        "level": 60,
+        "weight": 664
+      },
+      "Conqueror's": {
+        "level": 60,
+        "weight": 664
+      },
+      "Incanter's": {
+        "level": 58,
+        "weight": 664
+      },
+      "Tyrannical": {
+        "level": 73,
+        "weight": 334
+      },
+      "Emperor's": {
+        "level": 73,
+        "weight": 334
+      },
+      "Glyphic": {
+        "level": 79,
+        "weight": 334
+      }
+    },
+    "wands": {
+      "Caster's": {
+        "level": 2,
+        "weight": 10000
+      },
+      "Conjuror's": {
+        "level": 11,
+        "weight": 10000
+      },
+      "Wizard's": {
+        "level": 23,
+        "weight": 10000
+      },
+      "Beryl": {
+        "level": 1,
+        "weight": 4998
+      },
+      "Mazarine": {
+        "level": 69,
+        "weight": 4998
+      },
+      "Blue": {
+        "level": 75,
+        "weight": 4998
+      },
+      "Cobalt": {
+        "level": 11,
+        "weight": 4998
+      },
+      "Azure": {
+        "level": 17,
+        "weight": 4998
+      },
+      "Sapphire": {
+        "level": 23,
+        "weight": 4998
+      },
+      "Cerulean": {
+        "level": 29,
+        "weight": 4998
+      },
+      "Aqua": {
+        "level": 35,
+        "weight": 4998
+      },
+      "Opalescent": {
+        "level": 42,
+        "weight": 4998
+      },
+      "Gentian": {
+        "level": 51,
+        "weight": 4998
+      },
+      "Chalybeous": {
+        "level": 60,
+        "weight": 4998
+      },
+      "Remora's": {
+        "level": 9,
+        "weight": 4998
+      },
+      "Glinting": {
+        "level": 2,
+        "weight": 4998
+      },
+      "Burnished": {
+        "level": 13,
+        "weight": 4998
+      },
+      "Polished": {
+        "level": 21,
+        "weight": 4998
+      },
+      "Honed": {
+        "level": 29,
+        "weight": 4998
+      },
+      "Gleaming": {
+        "level": 36,
+        "weight": 4998
+      },
+      "Annealed": {
+        "level": 46,
+        "weight": 4998
+      },
+      "Razor Sharp": {
+        "level": 54,
+        "weight": 4998
+      },
+      "Tempered": {
+        "level": 65,
+        "weight": 4998
+      },
+      "Flaring": {
+        "level": 77,
+        "weight": 4998
+      },
+      "Heavy": {
+        "level": 1,
+        "weight": 4998
+      },
+      "Serrated": {
+        "level": 11,
+        "weight": 4998
+      },
+      "Wicked": {
+        "level": 23,
+        "weight": 4998
+      },
+      "Squire's": {
+        "level": 1,
+        "weight": 4998
+      },
+      "Journeyman's": {
+        "level": 11,
+        "weight": 4998
+      },
+      "Reaver's": {
+        "level": 23,
+        "weight": 4998
+      },
+      "Frost Weaver's": {
+        "level": 2,
+        "weight": 4998
+      },
+      "Winterbringer's": {
+        "level": 55,
+        "weight": 4998
+      },
+      "Flame Spinner's": {
+        "level": 2,
+        "weight": 4998
+      },
+      "Lava Caller's": {
+        "level": 55,
+        "weight": 4998
+      },
+      "Thunder Lord's": {
+        "level": 2,
+        "weight": 4998
+      },
+      "Tempest King's": {
+        "level": 55,
+        "weight": 4998
+      },
+      "Thirsty": {
+        "level": 9,
+        "weight": 4998
+      },
+      "Apprentice's": {
+        "level": 2,
+        "weight": 4998
+      },
+      "Adept's": {
+        "level": 11,
+        "weight": 4998
+      },
+      "Scholar's": {
+        "level": 23,
+        "weight": 4998
+      },
+      "Warlock's": {
+        "level": 35,
+        "weight": 4000
+      },
+      "Frosted": {
+        "level": 2,
+        "weight": 2500
+      },
+      "Chilled": {
+        "level": 12,
+        "weight": 2500
+      },
+      "Icy": {
+        "level": 19,
+        "weight": 2500
+      },
+      "Frigid": {
+        "level": 27,
+        "weight": 2500
+      },
+      "Freezing": {
+        "level": 34,
+        "weight": 2500
+      },
+      "Frozen": {
+        "level": 43,
+        "weight": 2500
+      },
+      "Glaciated": {
+        "level": 52,
+        "weight": 2500
+      },
+      "Polar": {
+        "level": 63,
+        "weight": 2500
+      },
+      "Entombing": {
+        "level": 75,
+        "weight": 2500
+      },
+      "Heated": {
+        "level": 1,
+        "weight": 2500
+      },
+      "Smoldering": {
+        "level": 11,
+        "weight": 2500
+      },
+      "Smoking": {
+        "level": 18,
+        "weight": 2500
+      },
+      "Burning": {
+        "level": 26,
+        "weight": 2500
+      },
+      "Flaming": {
+        "level": 33,
+        "weight": 2500
+      },
+      "Scorching": {
+        "level": 42,
+        "weight": 2500
+      },
+      "Incinerating": {
+        "level": 51,
+        "weight": 2500
+      },
+      "Blasting": {
+        "level": 62,
+        "weight": 2500
+      },
+      "Cremating": {
+        "level": 74,
+        "weight": 2500
+      },
+      "Humming": {
+        "level": 3,
+        "weight": 2500
+      },
+      "Buzzing": {
+        "level": 13,
+        "weight": 2500
+      },
+      "Snapping": {
+        "level": 19,
+        "weight": 2500
+      },
+      "Crackling": {
+        "level": 31,
+        "weight": 2500
+      },
+      "Sparking": {
+        "level": 34,
+        "weight": 2500
+      },
+      "Arcing": {
+        "level": 42,
+        "weight": 2500
+      },
+      "Shocking": {
+        "level": 51,
+        "weight": 2500
+      },
+      "Discharging": {
+        "level": 63,
+        "weight": 2500
+      },
+      "Electrocuting": {
+        "level": 74,
+        "weight": 2500
+      },
+      "Vicious": {
+        "level": 35,
+        "weight": 1998
+      },
+      "Mercenary's": {
+        "level": 35,
+        "weight": 1998
+      },
+      "Mage's": {
+        "level": 46,
+        "weight": 1998
+      },
+      "Professor's": {
+        "level": 35,
+        "weight": 1998
+      },
+      "Catalysing": {
+        "level": 4,
+        "weight": 1499
+      },
+      "Infusing": {
+        "level": 15,
+        "weight": 1499
+      },
+      "Empowering": {
+        "level": 30,
+        "weight": 1499
+      },
+      "Unleashed": {
+        "level": 75,
+        "weight": 1499
+      },
+      "Paragon's": {
+        "level": 50,
+        "weight": 1250
+      },
+      "Bloodthirsty": {
+        "level": 46,
+        "weight": 1000
+      },
+      "Champion's": {
+        "level": 46,
+        "weight": 1000
+      },
+      "Archmage's": {
+        "level": 58,
+        "weight": 1000
+      },
+      "Occultist's": {
+        "level": 46,
+        "weight": 1000
+      },
+      "Cruel": {
+        "level": 60,
+        "weight": 498
+      },
+      "Conqueror's": {
+        "level": 60,
+        "weight": 498
+      },
+      "Incanter's": {
+        "level": 58,
+        "weight": 498
+      },
+      "Tyrannical": {
+        "level": 73,
+        "weight": 249
+      },
+      "Emperor's": {
+        "level": 73,
+        "weight": 249
+      },
+      "Glyphic": {
+        "level": 79,
+        "weight": 249
+      }
+    }
+  },
+  "suffix": {
+    "1hswords": {
+      "of the Mongoose": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lynx": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Fox": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Falcon": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Panther": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Leopard": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Jaguar": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Phantasm": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Restoration": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Regrowth": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Nourishment": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Ire": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Anger": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Rage": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Fury": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Ferocity": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Destruction": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of Needling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Stinging": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Piercing": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Puncturing": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Penetrating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Incision": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Skill": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Ease": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Mastery": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Renown": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Acclaim": {
+        "level": 37,
+        "weight": 10000
+      },
+      "of Fame": {
+        "level": 45,
+        "weight": 10000
+      },
+      "of Infamy": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Celebration": {
+        "level": 77,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of the Worthy": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Apt": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Brute": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Wrestler": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Bear": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Lion": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Gorilla": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Goliath": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Leviathan": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Titan": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Impact": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of Dazing": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Stunning": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Slamming": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Staggering": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Pugilist": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of the Brawler": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of the Boxer": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of the Combatant": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Gladiator": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 5000
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 5000
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 5000
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 5000
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 5000
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 5000
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 5000
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 5000
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 5000
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 5000
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 5000
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 5000
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of Shining": {
+        "level": 8,
+        "weight": 5000
+      },
+      "of Light": {
+        "level": 15,
+        "weight": 5000
+      },
+      "of Radiance": {
+        "level": 30,
+        "weight": 5000
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 1250
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 1250
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 1250
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 1250
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 1250
+      }
+    },
+    "2haxes": {
+      "of the Mongoose": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lynx": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Fox": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Falcon": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Panther": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Leopard": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Jaguar": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Phantasm": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Restoration": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Regrowth": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Nourishment": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Ire": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Anger": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Rage": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Fury": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Ferocity": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Destruction": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of Needling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Stinging": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Piercing": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Puncturing": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Penetrating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Incision": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Skill": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Ease": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Mastery": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Renown": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Acclaim": {
+        "level": 37,
+        "weight": 10000
+      },
+      "of Fame": {
+        "level": 45,
+        "weight": 10000
+      },
+      "of Infamy": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Celebration": {
+        "level": 77,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of the Worthy": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Apt": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Brute": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Wrestler": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Bear": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Lion": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Gorilla": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Goliath": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Leviathan": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Titan": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Impact": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of Dazing": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Stunning": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Slamming": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Staggering": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Pugilist": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of the Brawler": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of the Boxer": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of the Combatant": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Gladiator": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 5000
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 5000
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 5000
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 5000
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 5000
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 5000
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 5000
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 5000
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 5000
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 5000
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 5000
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 5000
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of Shining": {
+        "level": 8,
+        "weight": 5000
+      },
+      "of Light": {
+        "level": 15,
+        "weight": 5000
+      },
+      "of Radiance": {
+        "level": 30,
+        "weight": 5000
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 1250
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 1250
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 1250
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 1250
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 1250
+      }
+    },
+    "amulets": {
+      "of the Crystal": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of the Prism": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of the Kaleidoscope": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Variegation": {
+        "level": 48,
+        "weight": 10000
+      },
+      "of the Rainbow": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 10000
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 10000
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 10000
+      },
+      "of Ire": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Anger": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Rage": {
+        "level": 31,
+        "weight": 10000
+      },
+      "of Fury": {
+        "level": 45,
+        "weight": 10000
+      },
+      "of Ferocity": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Destruction": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Needling": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of Stinging": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Piercing": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Puncturing": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Penetrating": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of Incision": {
+        "level": 72,
+        "weight": 10000
+      },
+      "of the Mongoose": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lynx": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Fox": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Falcon": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Panther": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Leopard": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Jaguar": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Phantasm": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 10000
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of the Assassin": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of the Pupil": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Student": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Prodigy": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Augur": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Philosopher": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Sage": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Savant": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Virtuoso": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Collecting": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Gathering": {
+        "level": 32,
+        "weight": 10000
+      },
+      "of Hoarding": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of Amassment": {
+        "level": 77,
+        "weight": 10000
+      },
+      "of Plunder": {
+        "level": 3,
+        "weight": 10000
+      },
+      "of Raiding": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Archaeology": {
+        "level": 53,
+        "weight": 10000
+      },
+      "of Excavation": {
+        "level": 75,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Restoration": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Regrowth": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of the Newt": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lizard": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of the Starfish": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of the Hydra": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Troll": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of the Phoenix": {
+        "level": 78,
+        "weight": 10000
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 10000
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 10000
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 10000
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 10000
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Excitement": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Joy": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Elation": {
+        "level": 29,
+        "weight": 10000
+      },
+      "of Bliss": {
+        "level": 42,
+        "weight": 10000
+      },
+      "of Euphoria": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of Nirvana": {
+        "level": 79,
+        "weight": 10000
+      },
+      "of the Brute": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Wrestler": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Bear": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Lion": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Gorilla": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Goliath": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Leviathan": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Titan": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of the Clouds": {
+        "level": 1,
+        "weight": 7995
+      },
+      "of the Sky": {
+        "level": 11,
+        "weight": 7995
+      },
+      "of the Meteor": {
+        "level": 22,
+        "weight": 7995
+      },
+      "of the Comet": {
+        "level": 33,
+        "weight": 7995
+      },
+      "of the Heavens": {
+        "level": 44,
+        "weight": 7995
+      },
+      "of the Galaxy": {
+        "level": 55,
+        "weight": 7995
+      },
+      "of the Universe": {
+        "level": 66,
+        "weight": 7995
+      },
+      "of the Infinite": {
+        "level": 77,
+        "weight": 7995
+      },
+      "of Talent": {
+        "level": 2,
+        "weight": 7995
+      },
+      "of Nimbleness": {
+        "level": 15,
+        "weight": 7995
+      },
+      "of Expertise": {
+        "level": 30,
+        "weight": 7995
+      },
+      "of Snow": {
+        "level": 12,
+        "weight": 4994
+      },
+      "of Sleet": {
+        "level": 24,
+        "weight": 4994
+      },
+      "of Ice": {
+        "level": 36,
+        "weight": 4994
+      },
+      "of Embers": {
+        "level": 8,
+        "weight": 4994
+      },
+      "of Coals": {
+        "level": 22,
+        "weight": 4994
+      },
+      "of Cinders": {
+        "level": 36,
+        "weight": 4994
+      },
+      "of Sparks": {
+        "level": 10,
+        "weight": 4994
+      },
+      "of Static": {
+        "level": 23,
+        "weight": 4994
+      },
+      "of Electricity": {
+        "level": 36,
+        "weight": 4994
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 2497
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 2497
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 2497
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 2497
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 2497
+      }
+    },
+    "bows": {
+      "of the Mongoose": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lynx": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Fox": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Falcon": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Panther": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Leopard": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Jaguar": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Phantasm": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Restoration": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Regrowth": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Nourishment": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Ire": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Anger": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Rage": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Fury": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Ferocity": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Destruction": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of Needling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Stinging": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Piercing": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Puncturing": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Penetrating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Incision": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Skill": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Ease": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Mastery": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Darting": {
+        "level": 14,
+        "weight": 10000
+      },
+      "of Flight": {
+        "level": 27,
+        "weight": 10000
+      },
+      "of Propulsion": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Zephyr": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Worthy": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Apt": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Impact": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of Dazing": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Stunning": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Slamming": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Staggering": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 5003
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 5003
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 5003
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 5003
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 5003
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 5003
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 5003
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 5003
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 5003
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 5003
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 5003
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 5003
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 5003
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 5003
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 5003
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 5003
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 5003
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 5003
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 5003
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 5003
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 5003
+      },
+      "of Shining": {
+        "level": 8,
+        "weight": 5003
+      },
+      "of Light": {
+        "level": 15,
+        "weight": 5003
+      },
+      "of Radiance": {
+        "level": 30,
+        "weight": 5003
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 1247
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 1247
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 1247
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 1247
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 1247
+      }
+    },
+    "daggers": {
+      "of the Mongoose": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lynx": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Fox": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Falcon": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Panther": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Leopard": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Jaguar": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Phantasm": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of the Pupil": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Student": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Prodigy": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Augur": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Philosopher": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Sage": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Savant": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Virtuoso": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Restoration": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Regrowth": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Nourishment": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Ire": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Anger": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Rage": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Fury": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Ferocity": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Destruction": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of Needling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Stinging": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Piercing": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Puncturing": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Penetrating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Incision": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Skill": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Ease": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Mastery": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Renown": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Acclaim": {
+        "level": 37,
+        "weight": 10000
+      },
+      "of Fame": {
+        "level": 45,
+        "weight": 10000
+      },
+      "of Infamy": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Celebration": {
+        "level": 77,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Excitement": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Joy": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Elation": {
+        "level": 29,
+        "weight": 10000
+      },
+      "of Bliss": {
+        "level": 42,
+        "weight": 10000
+      },
+      "of Euphoria": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of Nirvana": {
+        "level": 79,
+        "weight": 10000
+      },
+      "of the Worthy": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Apt": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Menace": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Havoc": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Disaster": {
+        "level": 28,
+        "weight": 10000
+      },
+      "of Calamity": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of Ruin": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Unmaking": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Impact": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of Dazing": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Stunning": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Slamming": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Staggering": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 5000
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 5000
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 5000
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 5000
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 5000
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 5000
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 5000
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 5000
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 5000
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 5000
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 5000
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 5000
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of Shining": {
+        "level": 8,
+        "weight": 5000
+      },
+      "of Light": {
+        "level": 15,
+        "weight": 5000
+      },
+      "of Radiance": {
+        "level": 30,
+        "weight": 5000
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 1250
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 1250
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 1250
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 1250
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 1250
+      }
+    },
+    "rings": {
+      "of the Crystal": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of the Prism": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of the Kaleidoscope": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Variegation": {
+        "level": 48,
+        "weight": 10000
+      },
+      "of the Rainbow": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 10000
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 10000
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 10000
+      },
+      "of the Mongoose": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lynx": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Fox": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Falcon": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Panther": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Leopard": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Jaguar": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Phantasm": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 10000
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of the Assassin": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of the Pupil": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Student": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Prodigy": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Augur": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Philosopher": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Sage": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Savant": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Virtuoso": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Collecting": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Gathering": {
+        "level": 32,
+        "weight": 10000
+      },
+      "of Hoarding": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of Amassment": {
+        "level": 77,
+        "weight": 10000
+      },
+      "of Plunder": {
+        "level": 3,
+        "weight": 10000
+      },
+      "of Raiding": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Archaeology": {
+        "level": 53,
+        "weight": 10000
+      },
+      "of Excavation": {
+        "level": 75,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of the Newt": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Lizard": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of the Starfish": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of the Hydra": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Troll": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of the Phoenix": {
+        "level": 78,
+        "weight": 10000
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 10000
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 10000
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 10000
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 10000
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 10000
+      },
+      "of Shining": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Light": {
+        "level": 15,
+        "weight": 10000
+      },
+      "of Radiance": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Excitement": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Joy": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Elation": {
+        "level": 29,
+        "weight": 10000
+      },
+      "of Bliss": {
+        "level": 42,
+        "weight": 10000
+      },
+      "of Euphoria": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of Nirvana": {
+        "level": 79,
+        "weight": 10000
+      },
+      "of the Brute": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Wrestler": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Bear": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Lion": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Gorilla": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Goliath": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Leviathan": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Titan": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Talent": {
+        "level": 2,
+        "weight": 7999
+      },
+      "of Snow": {
+        "level": 12,
+        "weight": 5000
+      },
+      "of Sleet": {
+        "level": 24,
+        "weight": 5000
+      },
+      "of Embers": {
+        "level": 8,
+        "weight": 5000
+      },
+      "of Coals": {
+        "level": 22,
+        "weight": 5000
+      },
+      "of Skill": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of Sparks": {
+        "level": 10,
+        "weight": 5000
+      },
+      "of Static": {
+        "level": 23,
+        "weight": 5000
+      },
+      "of the Clouds": {
+        "level": 1,
+        "weight": 3999
+      },
+      "of the Sky": {
+        "level": 11,
+        "weight": 3999
+      },
+      "of the Meteor": {
+        "level": 22,
+        "weight": 3999
+      },
+      "of the Comet": {
+        "level": 33,
+        "weight": 3999
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 2500
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 2500
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 2500
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 2500
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 2500
+      }
+    },
+    "staffs": {
+      "of Snow": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Sleet": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Ice": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Rime": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Floe": {
+        "level": 64,
+        "weight": 10000
+      },
+      "of Glaciation": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Embers": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Coals": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Cinders": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Flames": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Immolation": {
+        "level": 64,
+        "weight": 10000
+      },
+      "of Ashes": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Talent": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Nimbleness": {
+        "level": 15,
+        "weight": 10000
+      },
+      "of Expertise": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Legerdemain": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Prestidigitation": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Pupil": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Student": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Prodigy": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Augur": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Philosopher": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Sage": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Savant": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Virtuoso": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Restoration": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Regrowth": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Nourishment": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Sparks": {
+        "level": 10,
+        "weight": 10000
+      },
+      "of Static": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Electricity": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Voltage": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Discharge": {
+        "level": 64,
+        "weight": 10000
+      },
+      "of Arcing": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Ire": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Anger": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Rage": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Fury": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Ferocity": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Destruction": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of Needling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Stinging": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Piercing": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Puncturing": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Penetrating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Incision": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Skill": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Ease": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Mastery": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Renown": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Acclaim": {
+        "level": 37,
+        "weight": 10000
+      },
+      "of Fame": {
+        "level": 45,
+        "weight": 10000
+      },
+      "of Infamy": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Celebration": {
+        "level": 77,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Excitement": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Joy": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Elation": {
+        "level": 29,
+        "weight": 10000
+      },
+      "of Bliss": {
+        "level": 42,
+        "weight": 10000
+      },
+      "of Euphoria": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of Nirvana": {
+        "level": 79,
+        "weight": 10000
+      },
+      "of the Worthy": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Apt": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Menace": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Havoc": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Disaster": {
+        "level": 28,
+        "weight": 10000
+      },
+      "of Calamity": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of Ruin": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Unmaking": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of the Brute": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Wrestler": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Bear": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Lion": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Gorilla": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Goliath": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Leviathan": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Titan": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Impact": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of Dazing": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Stunning": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Slamming": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Staggering": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Pugilist": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of the Brawler": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of the Boxer": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of the Combatant": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Gladiator": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 5000
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 5000
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 5000
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 5000
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 5000
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 5000
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 5000
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 5000
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of Sortilege": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 5000
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 5000
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 5000
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 5000
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 5000
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 5000
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 5000
+      },
+      "of Shining": {
+        "level": 8,
+        "weight": 5000
+      },
+      "of Light": {
+        "level": 15,
+        "weight": 5000
+      },
+      "of Radiance": {
+        "level": 30,
+        "weight": 5000
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 1255
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 1255
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 1255
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 1255
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 1255
+      }
+    },
+    "wands": {
+      "of Snow": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Sleet": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Ice": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Rime": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Floe": {
+        "level": 64,
+        "weight": 10000
+      },
+      "of Glaciation": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Embers": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Coals": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Cinders": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Flames": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Immolation": {
+        "level": 64,
+        "weight": 10000
+      },
+      "of Ashes": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Talent": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Nimbleness": {
+        "level": 15,
+        "weight": 10000
+      },
+      "of Expertise": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Legerdemain": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Prestidigitation": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Pupil": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of the Student": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of the Prodigy": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of the Augur": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Philosopher": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of the Sage": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Savant": {
+        "level": 66,
+        "weight": 10000
+      },
+      "of the Virtuoso": {
+        "level": 74,
+        "weight": 10000
+      },
+      "of Success": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Victory": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Triumph": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Rejuvenation": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Restoration": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Regrowth": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Nourishment": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Sparks": {
+        "level": 10,
+        "weight": 10000
+      },
+      "of Static": {
+        "level": 23,
+        "weight": 10000
+      },
+      "of Electricity": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of Voltage": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Discharge": {
+        "level": 64,
+        "weight": 10000
+      },
+      "of Arcing": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Ire": {
+        "level": 8,
+        "weight": 10000
+      },
+      "of Anger": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Rage": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Fury": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Ferocity": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Destruction": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of Needling": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Stinging": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Piercing": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Puncturing": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Penetrating": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Incision": {
+        "level": 73,
+        "weight": 10000
+      },
+      "of the Ranger": {
+        "level": 63,
+        "weight": 10000
+      },
+      "of Calm": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Steadiness": {
+        "level": 12,
+        "weight": 10000
+      },
+      "of Accuracy": {
+        "level": 20,
+        "weight": 10000
+      },
+      "of Precision": {
+        "level": 26,
+        "weight": 10000
+      },
+      "of the Sniper": {
+        "level": 33,
+        "weight": 10000
+      },
+      "of the Marksman": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Deadeye": {
+        "level": 50,
+        "weight": 10000
+      },
+      "of Skill": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Ease": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Mastery": {
+        "level": 22,
+        "weight": 10000
+      },
+      "of Absorption": {
+        "level": 1,
+        "weight": 10000
+      },
+      "of Osmosis": {
+        "level": 24,
+        "weight": 10000
+      },
+      "of Consumption": {
+        "level": 40,
+        "weight": 10000
+      },
+      "of Excitement": {
+        "level": 2,
+        "weight": 10000
+      },
+      "of Joy": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Elation": {
+        "level": 29,
+        "weight": 10000
+      },
+      "of Bliss": {
+        "level": 42,
+        "weight": 10000
+      },
+      "of Euphoria": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of Nirvana": {
+        "level": 79,
+        "weight": 10000
+      },
+      "of Darting": {
+        "level": 14,
+        "weight": 10000
+      },
+      "of Flight": {
+        "level": 27,
+        "weight": 10000
+      },
+      "of Propulsion": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of the Zephyr": {
+        "level": 55,
+        "weight": 10000
+      },
+      "of the Worthy": {
+        "level": 36,
+        "weight": 10000
+      },
+      "of the Apt": {
+        "level": 60,
+        "weight": 10000
+      },
+      "of Menace": {
+        "level": 11,
+        "weight": 10000
+      },
+      "of Havoc": {
+        "level": 21,
+        "weight": 10000
+      },
+      "of Disaster": {
+        "level": 28,
+        "weight": 10000
+      },
+      "of Calamity": {
+        "level": 41,
+        "weight": 10000
+      },
+      "of Ruin": {
+        "level": 59,
+        "weight": 10000
+      },
+      "of Unmaking": {
+        "level": 76,
+        "weight": 10000
+      },
+      "of Impact": {
+        "level": 5,
+        "weight": 10000
+      },
+      "of Dazing": {
+        "level": 18,
+        "weight": 10000
+      },
+      "of Stunning": {
+        "level": 30,
+        "weight": 10000
+      },
+      "of Slamming": {
+        "level": 44,
+        "weight": 10000
+      },
+      "of Staggering": {
+        "level": 58,
+        "weight": 10000
+      },
+      "of the Inuit": {
+        "level": 1,
+        "weight": 4994
+      },
+      "of the Seal": {
+        "level": 14,
+        "weight": 4994
+      },
+      "of the Penguin": {
+        "level": 26,
+        "weight": 4994
+      },
+      "of the Yeti": {
+        "level": 38,
+        "weight": 4994
+      },
+      "of the Walrus": {
+        "level": 50,
+        "weight": 4994
+      },
+      "of the Polar Bear": {
+        "level": 60,
+        "weight": 4994
+      },
+      "of the Ice": {
+        "level": 72,
+        "weight": 4994
+      },
+      "of the Whelpling": {
+        "level": 1,
+        "weight": 4994
+      },
+      "of the Salamander": {
+        "level": 12,
+        "weight": 4994
+      },
+      "of the Drake": {
+        "level": 24,
+        "weight": 4994
+      },
+      "of the Kiln": {
+        "level": 36,
+        "weight": 4994
+      },
+      "of the Furnace": {
+        "level": 48,
+        "weight": 4994
+      },
+      "of the Volcano": {
+        "level": 60,
+        "weight": 4994
+      },
+      "of the Magma": {
+        "level": 72,
+        "weight": 4994
+      },
+      "of Sortilege": {
+        "level": 72,
+        "weight": 4994
+      },
+      "of the Cloud": {
+        "level": 1,
+        "weight": 4994
+      },
+      "of the Squall": {
+        "level": 13,
+        "weight": 4994
+      },
+      "of the Storm": {
+        "level": 25,
+        "weight": 4994
+      },
+      "of the Thunderhead": {
+        "level": 37,
+        "weight": 4994
+      },
+      "of the Tempest": {
+        "level": 49,
+        "weight": 4994
+      },
+      "of the Maelstrom": {
+        "level": 60,
+        "weight": 4994
+      },
+      "of the Lightning": {
+        "level": 72,
+        "weight": 4994
+      },
+      "of Shining": {
+        "level": 8,
+        "weight": 4994
+      },
+      "of Light": {
+        "level": 15,
+        "weight": 4994
+      },
+      "of Radiance": {
+        "level": 30,
+        "weight": 4994
+      },
+      "of the Lost": {
+        "level": 16,
+        "weight": 1251
+      },
+      "of Banishment": {
+        "level": 30,
+        "weight": 1251
+      },
+      "of Eviction": {
+        "level": 44,
+        "weight": 1251
+      },
+      "of Expulsion": {
+        "level": 56,
+        "weight": 1251
+      },
+      "of Exile": {
+        "level": 65,
+        "weight": 1251
+      }
+    }
+  }
+}
