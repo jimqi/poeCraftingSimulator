@@ -216,6 +216,11 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 		String base = (String) baseSelection.getSelectedItem();
 		return base;
 	}
+	
+	public String getSpecificItem() {
+		String specificItem = (String) itemSelection.getSelectedItem();
+		return specificItem;
+	}
 
 	public String getRarity() {
 		String rarity = (String) raritySelection.getSelectedItem();

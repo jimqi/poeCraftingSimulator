@@ -4,8 +4,10 @@ import poeCraftingSim.client.items.Item;
 
 public interface NormalOrb {
 	
-	public static void use(Item i) {}
+	public static void use(Item i) {
+	}
 	
-	public static boolean isValid(Item i) {
-		return false;}
+	static boolean isValid(Item i) {
+		return false;
+	}
 }

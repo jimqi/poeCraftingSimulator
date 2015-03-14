@@ -41,6 +41,7 @@ public class MainWindow extends JFrame {
 					item.setBase(creationPanel.getBase());
 					item.setRarity(creationPanel.getRarity());
 					item.setItemLevel(creationPanel.getItemLevel());
+					item.setSpecificItem(creationPanel.getSpecificItem());
 					item.setMod("Implicit", "test");
 
 					craftingPanel = new ItemCraftingPanel();

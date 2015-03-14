@@ -3,6 +3,8 @@ package poeCraftingSim.client.items;
 import java.util.ArrayList;
 import java.util.List;
 
+import poeCraftingSim.client.enums.AffixEnum;
+
 public class Item {
 	private static volatile Item instance = null;
 
@@ -10,6 +12,7 @@ public class Item {
 	private String name;
 	private String type;
 	private String base;
+	private String specificItem;
 	private String rarity;
 	private List<String> implicit;
 	private int sockets;
@@ -59,6 +62,10 @@ public class Item {
 		this.rarity = r;
 	}
 
+	public void setSpecificItem(String specificItem) {
+		this.specificItem = specificItem;
+	}
+
 	/**
 	 * Puts the mod into the first open mod space or does nothing if no open spaces left
 	 * 
@@ -69,7 +76,7 @@ public class Item {
 	 */
 	public void setMod(String s, String m) {
 		int i = 0;
-		if (s == "Prefix") {
+		if (s == AffixEnum.PREFIX.toString()) {
 			while (i < prefix.length) {
 				if (prefix[i] == null){
 					prefix[i] = m;
@@ -78,7 +85,7 @@ public class Item {
 				i++;
 			}	
 		}
-		else if (s == "Suffix") {
+		else if (s == AffixEnum.SUFFIX.toString()) {
 			while (i < suffix.length) {
 				if (suffix[i] == null){
 					suffix[i] = m;
@@ -87,11 +94,11 @@ public class Item {
 				i++;
 			}
 		}
-		else if (s == "Implicit") {
+		else if (s == AffixEnum.IMPLICIT.toString()) {
 			implicit.add(m);
 			return;
 		}
-		System.out.println("invalid set mod field");
+		System.out.println("invalid set mod field" + s + m);
 	}
 
 	//get methods
@@ -113,6 +120,11 @@ public class Item {
 	public int getItemLevel() {
 		return itemLevel;
 	}
+	
+	public String getSpecificItem() {
+		return specificItem;
+	}
+
 
 	/**
 	 * gets one item mod
@@ -125,19 +137,19 @@ public class Item {
 	 *  		  the mod as a string
 	 */
 	public String getMod(String s, int i) {
-		if (s == "prefix") {
+		if (s == AffixEnum.PREFIX.toString()) {
 			if (i < prefix.length)
 				return prefix[i];
 			else
 				return "empty prefix";
 		}
-		else if (s == "suffix") {
+		else if (s == AffixEnum.SUFFIX.toString()) {
 			if (i < suffix.length)
 				return suffix[i];
 			else
 				return "empty suffix";
 		}
-		else if (s == "implicit")
+		else if (s == AffixEnum.IMPLICIT.toString())
 			if (implicit.get(i) != null)
 				return implicit.get(i);
 			else
@@ -146,25 +158,33 @@ public class Item {
 			return "invalid";
 	}
 
+	/**
+	 * Returns the affix string array
+	 * 
+	 * @param s
+	 * 			implicit/prefix/suffix
+	 * @return
+	 * 			returns all of the specified affix
+	 */
 	public String[] getMod(String s) {
 		String[] result = null;
 		int modNumber;
 		switch (s) {
-		case "implicit":
+		case "IMPLICIT":
 			modNumber = implicit.size();
 			result = new String[modNumber];
 			for (int i = 0; i < modNumber; i++) {
 				result[i] = getMod(s, 0);
 			}
 			break;
-		case "prefix":
+		case "PREFIX":
 			modNumber = prefix.length;
 			result = new String[modNumber];
 			for (int i = 0; i < modNumber; i++) {
 				result[i] = getMod(s, i);
 			}
 			break;
-		case "suffix":
+		case "SUFFIX":
 			modNumber = suffix.length;
 			result = new String[modNumber];
 			for (int i = 0; i < modNumber; i++) {
@@ -187,31 +207,40 @@ public class Item {
 			suffix[i] = null;
 		}
 	}
+	
+	/**
+	 *  checks if a orb can be used on the item
+	 * @param orbName
+	 * 			name of the orb being used
+	 * @return
+	 * 			boolean 
+	 */
 
 	public boolean isValid(String orbName) {
 		switch (orbName) {
-		case "TransmutationOrb": if (rarity == "Common") {
+		case "TRANSMUTATIONORB": if (rarity.equals("Common")) {
 			return true;
 		}
-		else
-			return false;
-		case "RegalOrb": if (rarity == "Magic") {
+		return false;
+		case "REGALORB": if (rarity.equals("Magic")) {
 			return true;
 		}
-		else
-			return false;
-		case "ScouringOrb": if (rarity != "Common") {
+		return false;
+		case "SCOURINGORB": if (!rarity.equals("Common")) {
 			return true;
 		}
-		else
-			return false;
+		return false;
+		case "ALCHEMYORB": if (rarity.equals("Common")) {
+			return true;
+		}
+		return false;
+		case "CHAOSORB": if (rarity.equals("Rare")) {
+			return true;
+		}
+		return false;
 		default:
 			return false;
 		}
-	}
-
-	public void createJson() {
-
 	}
 
 }

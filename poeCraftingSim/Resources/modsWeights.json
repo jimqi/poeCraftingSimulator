@@ -1,5 +1,5 @@
 {
-  "prefix": {
+  "PREFIX": {
     "1hswords": {
       "Frosted": {
         "level": 2,
@@ -1096,6 +1096,10 @@
         "weight": 2855
       },
       "Mercenary's": {
+        "level": 35,
+        "weight": 2855
+      },
+      "Lamprey's": {
         "level": 35,
         "weight": 2855
       },
@@ -2533,7 +2537,7 @@
       }
     }
   },
-  "suffix": {
+  "SUFFIX": {
     "1hswords": {
       "of the Mongoose": {
         "level": 1,
