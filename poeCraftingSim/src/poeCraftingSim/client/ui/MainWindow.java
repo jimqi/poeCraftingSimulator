@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
+import poeCraftingSim.client.enums.AffixEnum;
 import poeCraftingSim.client.functionality.ModParser;
 import poeCraftingSim.client.items.Item;
 
@@ -42,7 +43,7 @@ public class MainWindow extends JFrame {
 					item.setRarity(creationPanel.getRarity());
 					item.setItemLevel(creationPanel.getItemLevel());
 					item.setSpecificItem(creationPanel.getSpecificItem());
-					item.setMod("Implicit", "test");
+					//item.setMod(AffixEnum.IMPLICIT.toString(), "test");
 
 					craftingPanel = new ItemCraftingPanel();
 					creationPanel.setVisible(false);;

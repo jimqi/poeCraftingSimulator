@@ -196,13 +196,11 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 				for (int i = 0; i < arr.length(); i++) {
 					bows.add(arr.getJSONObject(i).getString("name"));
 				}
-				for (int i = 0; i < bows.size(); i++)
-					System.out.println(bows.get(i));
 				models[4] = new DefaultComboBoxModel<String>(bows.toArray((new String[bows.size()])));
 				itemSelection.setModel(models[4]);
 				itemSelection.setSelectedIndex(0);
 			} catch (FileNotFoundException e1) {
-				// TODO Auto-generated catch block
+				System.err.println("items.json could not be loaded: " + e);
 				e1.printStackTrace();
 			}
 		}

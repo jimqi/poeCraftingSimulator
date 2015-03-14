@@ -87,7 +87,6 @@ public class ModParser {
 				break;
 			}
 
-			//System.out.println("ilevel: " + ilevel + "itemLevel: " + itemLevel + aType + affixType + validType);
 			if (ilevel <= itemLevel && aType.equals(affixType)&& validType) {
 				result.add(arr.getJSONObject(i).getString("name"));
 			}

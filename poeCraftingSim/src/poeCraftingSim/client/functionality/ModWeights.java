@@ -54,7 +54,7 @@ public class ModWeights {
 				}
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			System.out.println("modsWeight.json loading failed: " + e);
 			e.printStackTrace();
 		} 
 		int[] result = convertIntegers(weights);
