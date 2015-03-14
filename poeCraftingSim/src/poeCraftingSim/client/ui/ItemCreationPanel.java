@@ -21,6 +21,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
+import poeCraftingSim.client.enums.RarityEnum;
+
 public class ItemCreationPanel extends JPanel implements ActionListener {
 
 	protected JFormattedTextField itemLevelSelection;
@@ -53,7 +55,7 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 		private static final long serialVersionUID = 8754447548911695908L;
 	};
 
-	private final JComboBox<String> raritySelection = new JComboBox<String>(new String[] { "select rarity", "Common", "Magic", "Rare" }) { 
+	private final JComboBox<String> raritySelection = new JComboBox<String>(new String[] { "select rarity", RarityEnum.COMMON.toString(), RarityEnum.MAGIC.toString(), RarityEnum.RARE.toString() }) { 
 		private static final long serialVersionUID = 8754447548911695908L;
 	};
 

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import poeCraftingSim.client.enums.AffixEnum;
+import poeCraftingSim.client.enums.RarityEnum;
 
 public class Item {
 	private static volatile Item instance = null;
@@ -218,23 +219,23 @@ public class Item {
 
 	public boolean isValid(String orbName) {
 		switch (orbName) {
-		case "TRANSMUTATIONORB": if (rarity.equals("Common")) {
+		case "TRANSMUTATIONORB": if (rarity.equals(RarityEnum.COMMON.toString())) {
 			return true;
 		}
 		return false;
-		case "REGALORB": if (rarity.equals("Magic")) {
+		case "REGALORB": if (rarity.equals(RarityEnum.MAGIC.toString())) {
 			return true;
 		}
 		return false;
-		case "SCOURINGORB": if (!rarity.equals("Common")) {
+		case "SCOURINGORB": if (!rarity.equals(RarityEnum.COMMON.toString())) {
 			return true;
 		}
 		return false;
-		case "ALCHEMYORB": if (rarity.equals("Common")) {
+		case "ALCHEMYORB": if (rarity.equals(RarityEnum.COMMON.toString())) {
 			return true;
 		}
 		return false;
-		case "CHAOSORB": if (rarity.equals("Rare")) {
+		case "CHAOSORB": if (rarity.equals(RarityEnum.RARE.toString())) {
 			return true;
 		}
 		return false;

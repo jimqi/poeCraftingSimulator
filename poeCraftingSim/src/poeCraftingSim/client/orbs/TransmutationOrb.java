@@ -6,6 +6,7 @@ import java.util.Random;
 
 import poeCraftingSim.client.enums.AffixEnum;
 import poeCraftingSim.client.enums.OrbTypes;
+import poeCraftingSim.client.enums.RarityEnum;
 import poeCraftingSim.client.functionality.ModParser;
 import poeCraftingSim.client.items.Item;
 
@@ -32,7 +33,7 @@ public class TransmutationOrb implements NormalOrb {
 					modS = ModParser.getMod(i, AffixEnum.SUFFIX.toString());
 					i.setMod(AffixEnum.SUFFIX.toString(), modS);
 			}
-			i.changeRarity("Magic");
+			i.changeRarity(RarityEnum.MAGIC.toString());
 		}
 	}
 

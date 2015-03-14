@@ -5,6 +5,7 @@ import java.util.Random;
 
 import poeCraftingSim.client.enums.AffixEnum;
 import poeCraftingSim.client.enums.OrbTypes;
+import poeCraftingSim.client.enums.RarityEnum;
 import poeCraftingSim.client.functionality.ModParser;
 import poeCraftingSim.client.items.Item;
 
@@ -26,7 +27,7 @@ public class AlchemyOrb implements NormalOrb {
 				mod = ModParser.getMod(i, whichMod);
 				i.setMod(whichMod, mod);
 			};
-			i.changeRarity("Rare");
+			i.changeRarity(RarityEnum.RARE.toString());
 		}
 	}
 

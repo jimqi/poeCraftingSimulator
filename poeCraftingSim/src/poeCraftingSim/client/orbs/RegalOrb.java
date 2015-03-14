@@ -5,6 +5,7 @@ import java.util.Random;
 
 import poeCraftingSim.client.enums.AffixEnum;
 import poeCraftingSim.client.enums.OrbTypes;
+import poeCraftingSim.client.enums.RarityEnum;
 import poeCraftingSim.client.functionality.ModParser;
 import poeCraftingSim.client.items.Item;
 
@@ -18,7 +19,7 @@ public class RegalOrb implements NormalOrb {
 			//validMods is a list of the name of mods valid for the item type, item level and affix type
 			mod = ModParser.getMod(i, whichMod);
 			i.setMod(whichMod, mod);
-			i.changeRarity("Rare");
+			i.changeRarity(RarityEnum.RARE.toString());
 		}
 	}
 	
