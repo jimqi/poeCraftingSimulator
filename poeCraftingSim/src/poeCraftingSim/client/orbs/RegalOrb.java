@@ -1,6 +1,5 @@
 package poeCraftingSim.client.orbs;
 
-import java.io.FileNotFoundException;
 import java.util.Random;
 
 import poeCraftingSim.client.enums.AffixEnum;
@@ -9,7 +8,7 @@ import poeCraftingSim.client.enums.RarityEnum;
 import poeCraftingSim.client.functionality.ModParser;
 import poeCraftingSim.client.items.Item;
 
-public class RegalOrb implements NormalOrb {
+public class RegalOrb {
 	static String whichMod;
 	static String mod;
 

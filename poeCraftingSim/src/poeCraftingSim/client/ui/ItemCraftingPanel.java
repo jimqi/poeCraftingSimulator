@@ -5,7 +5,6 @@ import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Arrays;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -17,16 +16,16 @@ import poeCraftingSim.client.orbs.*;
 
 public class ItemCraftingPanel extends JPanel implements ActionListener {
 
+	private static final long serialVersionUID = 3925873318794410180L;
+	
 	Item item;
 	//panel to display the item
 	static JPanel itemPanel;
 	static JLabel display;
 	final static int maxGap = 20;
 
-	static JButton transmutation, augmentation, regal, scouring, alchemy, chaos;
+	static JButton transmutation, augmentation, regal, scouring, alchemy, chaos, exalt;
 	GridLayout buttonLayout = new GridLayout(4,5);
-
-	private JPanel itemDisplay;
 
 	public ItemCraftingPanel() {
 		//get the item instance
@@ -105,6 +104,14 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
 				MainWindow.updateItemPanel(item);
 			}
 		});
+		
+		exalt = new JButton("Exalted Orb");
+		exalt.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ExaltedOrb.use(item);
+				MainWindow.updateItemPanel(item);
+			}
+		});
 
 		
 		final JPanel buttonPanel = new JPanel();
@@ -121,7 +128,7 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
         buttonPanel.add(regal);
         buttonPanel.add(alchemy);
         buttonPanel.add(chaos);
-        buttonPanel.add(new JButton("Button 3"));
+        buttonPanel.add(exalt);
         buttonPanel.add(new JButton("Button 4"));
         
         add(buttonPanel, BorderLayout.SOUTH);

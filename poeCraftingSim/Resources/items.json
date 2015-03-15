@@ -1,93 +1,117 @@
 {
-  "items": [
-    {
-      "weapon": [
+  "items": {
+    "weapon": {
+      "Bow": [
         {
-          "Bow": [
+          "name": "Spine Bow",
+          "level": 64,
+          "required dex": 212,
+          "required str": 0,
+          "required int": 0,
+          "stats": {
+            "Minimum Physical Damage": 27,
+            "Maximum Physical Damage": 79,
+            "Critical Strike Chance": 5,
+            "Attacks per Second": 1.34
+          },
+          "implicit mods": [
+            {}
+          ]
+        },
+        {
+          "name": "Imperial Bow",
+          "level": 66,
+          "required dex": 212,
+          "required str": 0,
+          "required int": 0,
+          "stats": {
+            "Minimum Physical Damage": 19,
+            "Maximum Physical Damage": 75,
+            "Critical Strike Chance": 5,
+            "Attacks per Second": 1.50
+          },
+          "implicit mods": [
+            {}
+          ]
+        },
+        {
+          "name": "Harbinger Bow",
+          "level": 68,
+          "required dex": 212,
+          "required str": 0,
+          "required int": 0,
+          "stats": {
+            "Minimum Physical Damage": 34,
+            "Maximum Physical Damage": 89,
+            "Critical Strike Chance": 5,
+            "Attacks per Second": 1.20
+          },
+          "implicit mods": [
             {
-              "name": "Imperial Bow",
-              "level": 66,
-              "required dex": 212,
-              "required str": 0,
-              "required int": 0,
-              "stats": {
-                "Minimum Physical Damage": 19,
-                "Maximum Physical Damage": 75,
-                "Critical Strike Chance": 5,
-                "Attacks per Second": 1.50
-              },
-              "implicit mods": [
-                {}
-              ]
-            },
-            {
-              "name": "Harbinger Bow",
-              "level": 68,
-              "required dex": 212,
-              "required str": 0,
-              "required int": 0,
-              "stats": {
-                "Minimum Physical Damage": 34,
-                "Maximum Physical Damage": 89,
-                "Critical Strike Chance": 5,
-                "Attacks per Second": 1.20
-              },
-              "implicit mods": [
-                {
-                  "increased critical strike chance": {
-                    "min": 30,
-                    "max": 50
-                  }
-                }
-              ]
-            }
-          ],
-          "Wand": [
-            {
-              "name": "Tornado Wand",
-              "level": 65,
-              "required dex": 0,
-              "required str": 0,
-              "required int": 212,
-              "stats": {
-                "Minimum Physical Damage": 16,
-                "Maximum Physical Damage": 49,
-                "Critical Strike Chance": 8.36,
-                "Attacks per Second": 1.30
-              },
-              "implicit mods": [
-                {
-                  "increased spell damage": {
-                    "min": 16,
-                    "max": 19
-                  }
-                }
-              ]
-            },
-            {
-              "name": "Prophecy Wand",
-              "level": 68,
-              "required dex": 0,
-              "required str": 0,
-              "required int": 245,
-              "stats": {
-                "Minimum Physical Damage": 28,
-                "Maximum Physical Damage": 52,
-                "Critical Strike Chance": 8.96,
-                "Attacks per Second": 1.10
-              },
-              "implicit mods": [
-                {
-                  "increased spell damage": {
-                    "min": 16,
-                    "max": 20
-                  }
-                }
-              ]
+              "%increased critical strike chance": {
+                "min": 30,
+                "max": 50
+              }
             }
           ]
         }
-      ]
-    }
-  ]
+      ],
+      "Claw": [
+        {
+          "name": "Imperial Claw",
+          "level": 68,
+          "required dex": 131,
+          "required str": 0,
+          "required int": 95,
+          "stats": {
+            "Minimum Physical Damage": 23,
+            "Maximum Physical Damage": 61,
+            "Critical Strike Chance": 6.68,
+            "Attacks per Second": 1.5
+          },
+          "implicit mods": [
+            {
+              "%of Physical Damage Leeched as Life": {
+                "min": 3,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "name": "Terror Claw",
+          "level": 70,
+          "required dex": 113,
+          "required str": 0,
+          "required int": 113,
+          "stats": {
+            "Minimum Physical Damage": 17,
+            "Maximum Physical Damage": 68,
+            "Critical Strike Chance": 6.68,
+            "Attacks per Second": 1.35
+          },
+          "implicit mods": [
+            {
+              "%of Physical Damage Leeched as Life": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ],
+      "Dagger": [],
+      "One-Handed Axe": [],
+      "One-Handed Mace": [],
+      "One-Handed Sword": [],
+      "Sceptre": [],
+      "Staff": [],
+      "Two-Handed Axe": [],
+      "Two-Handed Mace": [],
+      "Two-Handed Sword": [],
+      "Quiver": []
+    },
+    "armor": {},
+    "jewelery": {}
+  }
 }

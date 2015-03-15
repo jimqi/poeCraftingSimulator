@@ -1,7 +1,5 @@
 package poeCraftingSim.client.orbs;
 
-import java.io.FileNotFoundException;
-import java.util.Arrays;
 import java.util.Random;
 
 import poeCraftingSim.client.enums.AffixEnum;
@@ -10,9 +8,8 @@ import poeCraftingSim.client.enums.RarityEnum;
 import poeCraftingSim.client.functionality.ModParser;
 import poeCraftingSim.client.items.Item;
 
-public class TransmutationOrb implements NormalOrb {
-	static String whichMod;
-	static String mod, modP, modS;
+public class TransmutationOrb {
+	static String whichMod, mod, modP, modS;
 	//2 affix magic item or 1 affix
 	static int howMany;
 

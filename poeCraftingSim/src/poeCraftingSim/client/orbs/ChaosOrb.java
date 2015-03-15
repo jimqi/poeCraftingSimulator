@@ -3,7 +3,7 @@ package poeCraftingSim.client.orbs;
 import poeCraftingSim.client.enums.OrbTypes;
 import poeCraftingSim.client.items.Item;
 
-public class ChaosOrb implements NormalOrb {
+public class ChaosOrb {
 	public static void use(Item i) {
 		if (isValid(i)) {
 			ScouringOrb.use(i);

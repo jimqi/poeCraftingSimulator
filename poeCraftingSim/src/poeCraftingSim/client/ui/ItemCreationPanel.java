@@ -11,13 +11,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.text.NumberFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import javax.swing.*;
 import javax.swing.GroupLayout.Alignment;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
@@ -76,7 +76,7 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 				new 	String[] { "select weapons", "Bow", "Claw", "Dagger", "One-Handed Axe", "One-Handed Mace", "One-Handed Sword",
 						"Sceptre", "Staff", "Two-Handed Axe", "Two-Handed Mace", "Two-Handed Sword", "Wand" });
 		models[3] = new DefaultComboBoxModel<String>(
-				new 	String[] { "select jewelry", "Ring", "Belt", "Amulet" });
+				new 	String[] { "select jewelery", "Ring", "Belt", "Amulet" });
 		baseSelection.setModel(models[0]); 
 		//JComboBox typeSelection = new JComboBox(itemType);
 		typeSelection.addActionListener(this);
@@ -160,19 +160,28 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		JComboBox<String> cb = (JComboBox<String>) e.getSource();
 		String result = (String) cb.getSelectedItem();
+		String listType = null;
 		switch (result) {
+		case " ":
+		case "select weapons":
+		case "select armor":
+		case "select jewelery":
+			//does nothing because the actionPerfored is called when we change the model of the item base field
+			//do not remove
+			return;
 		case "Armor": 
 			baseSelection.setSelectedIndex(0);
 			baseSelection.setModel(models[1]);
-			break;
+			return;
 		case "Weapon": 
 			baseSelection.setSelectedIndex(0);
 			baseSelection.setModel(models[2]);
-			break;
+			return;
 		case "Jewelery": 
 			baseSelection.setSelectedIndex(0);
 			baseSelection.setModel(models[3]);
-			break;
+			return;
+			//weapon types
 		case "Bow":
 		case "Claw":
 		case "Dagger":
@@ -185,24 +194,43 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 		case "Two-Handed Mace":
 		case "Two-Handed Sword":
 		case "Wand":
-			List<String> bows = new ArrayList<String>();
-			JSONTokener temp;
-			File f = new File("Resources/items.json");
-			try {
-				temp = new JSONTokener(new FileReader(f));
-				JSONObject obj = new JSONObject(temp);
-				//array of weapons of type result
-				JSONArray arr = obj.getJSONArray("items").getJSONObject(0).getJSONArray("weapon").getJSONObject(0).getJSONArray(result);
+		case "Quiver":
+			listType = "weapon";
+			break;
+			//armor types
+		case "Body Armor":
+		case "Boots":
+		case "Gloves":
+		case "Helmet":
+		case "Shield":
+			listType = "armor";
+			break;
+			//jewelery types
+		case "Belt":
+		case "Ring":
+		case "Amulet":
+			listType = "jewelery";
+			break;
+		default:
+			return;
+		}
+		List<String> items = new ArrayList<String>();
+		JSONTokener temp;
+		File f = new File("Resources/items.json");
+		try {
+			temp = new JSONTokener(new FileReader(f));
+			JSONObject obj = new JSONObject(temp);
+			//array of weapons of type result
+				JSONArray arr = obj.getJSONObject("items").getJSONObject(listType).getJSONArray(result);
 				for (int i = 0; i < arr.length(); i++) {
-					bows.add(arr.getJSONObject(i).getString("name"));
+					items.add(arr.getJSONObject(i).getString("name"));
 				}
-				models[4] = new DefaultComboBoxModel<String>(bows.toArray((new String[bows.size()])));
-				itemSelection.setModel(models[4]);
-				itemSelection.setSelectedIndex(0);
-			} catch (FileNotFoundException e1) {
-				System.err.println("items.json could not be loaded: " + e);
-				e1.printStackTrace();
-			}
+			models[4] = new DefaultComboBoxModel<String>(items.toArray((new String[items.size()])));
+			itemSelection.setModel(models[4]);
+			itemSelection.setSelectedIndex(0);
+		} catch (FileNotFoundException e1) {
+			System.err.println("items.json could not be loaded: " + e);
+			e1.printStackTrace();
 		}
 
 	}
@@ -216,7 +244,7 @@ public class ItemCreationPanel extends JPanel implements ActionListener {
 		String base = (String) baseSelection.getSelectedItem();
 		return base;
 	}
-	
+
 	public String getSpecificItem() {
 		String specificItem = (String) itemSelection.getSelectedItem();
 		return specificItem;

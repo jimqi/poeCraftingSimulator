@@ -9,6 +9,9 @@ import poeCraftingSim.client.items.Item;
 import poeCraftingSim.client.orbs.*;
 
 public class ControlToolbar extends JToolBar {
+
+	private static final long serialVersionUID = -6723125053213248887L;
+	
 	private JButton testButton, testItemButton, testScourButton;
 	
 	public ControlToolbar() {

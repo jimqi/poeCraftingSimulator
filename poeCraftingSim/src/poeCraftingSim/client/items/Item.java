@@ -11,6 +11,7 @@ public class Item {
 
 	//Item Properties
 	private String name;
+	// Weapon, Armor or Jewelery
 	private String type;
 	private String base;
 	private String specificItem;
@@ -20,8 +21,12 @@ public class Item {
 	private int links;
 	private int quality;
 	private int itemLevel;
+	//aligned arrays value of prefix[x] = pValues[x]
 	private String[] prefix;
+	private String[] pValues;
 	private String[] suffix;
+	private String[] sValues;
+	
 	private Requirments req;
 
 	protected Item() {
@@ -30,7 +35,9 @@ public class Item {
 		quality = 0;
 		implicit = new ArrayList<String>();
 		prefix = new String[3];
+		pValues = new String[] {"0", "0", "0"};
 		suffix = new String[3];
+		sValues = new String[] {"0", "0", "0"};
 	}
 
 	public static Item getInstance() {
@@ -61,6 +68,16 @@ public class Item {
 	}
 	public void setRarity(String r) {
 		this.rarity = r;
+	}
+
+	public void setSockets(int s) {
+		if (s <= 6 && s > 0)
+			this.sockets = s;
+		else
+			System.err.println("Error invalid number of Sockets");
+	}
+	public void setLinks(int l) {
+		this.links = l;
 	}
 
 	public void setSpecificItem(String specificItem) {
@@ -219,7 +236,7 @@ public class Item {
 
 	public boolean isValid(String orbName) {
 		switch (orbName) {
-		case "TRANSMUTATIONORB": if (rarity.equals(RarityEnum.COMMON.toString())) {
+		case "TRANSMUTATIONORB" : if (rarity.equals(RarityEnum.COMMON.toString())) {
 			return true;
 		}
 		return false;
@@ -237,6 +254,13 @@ public class Item {
 		return false;
 		case "CHAOSORB": if (rarity.equals(RarityEnum.RARE.toString())) {
 			return true;
+		}
+		return false;
+		case "EXALTEDORB": if (rarity.equals(RarityEnum.RARE.toString())) {
+			//I already initilized the array to length 3 so I can't check if .length < 3 so I check to see if the 
+			//last affix position to be filled in empty or not
+			if (prefix[2] == null || suffix[2] == null)
+				return true;
 		}
 		return false;
 		default:

@@ -7,9 +7,10 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import poeCraftingSim.client.enums.AffixEnum;
-import poeCraftingSim.client.functionality.ModParser;
+import poeCraftingSim.client.enums.RarityEnum;
 import poeCraftingSim.client.items.Item;
+import poeCraftingSim.client.orbs.AlchemyOrb;
+import poeCraftingSim.client.orbs.TransmutationOrb;
 
 public class MainWindow extends JFrame {
 	private static final long serialVersionUID = 2419089325406471624L;
@@ -33,17 +34,24 @@ public class MainWindow extends JFrame {
 		JButton createItem = new JButton("Create");
 		createItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//TODO
-				//Create Item
-
+				//Create Item using values fetched from the creation panel
 				if (creationPanel.getType() != "select type" && creationPanel.getBase() != "select base" && creationPanel.getRarity() != "select rarity" && creationPanel.getItemLevel() != -1) {
 					item = Item.getInstance();
 					item.setType(creationPanel.getType());
 					item.setBase(creationPanel.getBase());
-					item.setRarity(creationPanel.getRarity());
 					item.setItemLevel(creationPanel.getItemLevel());
 					item.setSpecificItem(creationPanel.getSpecificItem());
-					//item.setMod(AffixEnum.IMPLICIT.toString(), "test");
+					if (creationPanel.getRarity().equals(RarityEnum.RARE.toString())) {
+						item.setRarity(RarityEnum.COMMON.toString());
+						AlchemyOrb.use(item);
+					}
+					else if (creationPanel.getRarity().equals(RarityEnum.MAGIC.toString())) {
+						item.setRarity(RarityEnum.COMMON.toString());
+						TransmutationOrb.use(item);
+					}
+					else {
+						item.setRarity(creationPanel.getRarity());
+					}
 
 					craftingPanel = new ItemCraftingPanel();
 					creationPanel.setVisible(false);;
