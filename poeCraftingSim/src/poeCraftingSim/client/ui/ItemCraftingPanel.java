@@ -25,7 +25,7 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
 	static JLabel display;
 	final static int maxGap = 20;
 
-	static JButton transmutation, augmentation, regal, scouring, alchemy, chaos, exalt;
+	static JButton transmutation, augmentation, alteration, regal, scouring, alchemy, chaos, exalt;
 	GridLayout buttonLayout = new GridLayout(4,5);
 
 	public ItemCraftingPanel() {
@@ -69,6 +69,7 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
 		//create the buttons to apply orbs	
 		transmutation = ButtonFactory.createButton("Transmutation Orb", "TransmutationOrb", item);
 		augmentation = ButtonFactory.createButton("Augmentation Orb", "AugmentationOrb", item);
+		alteration = ButtonFactory.createButton("Alteration Orb", "AlterationOrb", item);
 		regal = ButtonFactory.createButton("Regal Orb", "RegalOrb", item);
 		scouring = ButtonFactory.createButton("Scouring Orb", "ScouringOrb", item);
 		alchemy = ButtonFactory.createButton("Alchemy Orb", "AlchemyOrb", item);
@@ -86,6 +87,7 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
         
         buttonPanel.add(transmutation);
         buttonPanel.add(augmentation);
+        buttonPanel.add(alteration);
         buttonPanel.add(scouring);
         buttonPanel.add(regal);
         buttonPanel.add(alchemy);

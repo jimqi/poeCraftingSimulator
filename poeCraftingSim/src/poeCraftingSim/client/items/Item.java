@@ -12,6 +12,7 @@ public class Item {
 	//Item Properties
 	private String name;
 	// Weapon, Armor or Jewelery
+	private Boolean isCorrupted;
 	private String type;
 	private String base;
 	private String specificItem;
@@ -80,6 +81,13 @@ public class Item {
 		this.links = l;
 	}
 
+	public void setIsCorrupted(Boolean isCorrupted) {
+		if (isCorrupted) 
+			System.err.println("Item Already Corrupted");
+		this.isCorrupted = isCorrupted;
+	}
+
+
 	public void setSpecificItem(String specificItem) {
 		this.specificItem = specificItem;
 	}
@@ -137,6 +145,10 @@ public class Item {
 
 	public int getItemLevel() {
 		return itemLevel;
+	}
+	
+	public Boolean getIsCorrupted() {
+		return isCorrupted;
 	}
 	
 	public String getSpecificItem() {
@@ -235,17 +247,18 @@ public class Item {
 	 */
 
 	public boolean isValid(String orbName) {
-		String temp = getClass().getName();
-		System.out.println(temp);
 		switch (orbName) {
 		case "TRANSMUTATIONORB" : if (rarity.equals(RarityEnum.COMMON.toString())) {
 			return true;
 		}
 		return false;
 		case "AUGMENTATIONORB" : if (rarity.equals(RarityEnum.MAGIC.toString())) {
-			if (prefix[0] == null || suffix[0] == null) {
+			if (prefix[0] == null || suffix[0] == null)
 				return true;
-			}
+		}
+		return false;
+		case "ALTERATIONORB" : if (rarity.equals(RarityEnum.MAGIC.toString())) {
+			return true;
 		}
 		return false;
 		case "REGALORB": if (rarity.equals(RarityEnum.MAGIC.toString())) {
