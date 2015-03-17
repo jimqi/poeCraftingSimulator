@@ -1,5 +1,9 @@
 {
   "PREFIX": {
+  	"claws": {"Tyrannical": {
+        "level": 73,
+        "weight": 358
+      }},
     "1hswords": {
       "Frosted": {
         "level": 2,

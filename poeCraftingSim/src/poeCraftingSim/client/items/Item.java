@@ -235,9 +235,17 @@ public class Item {
 	 */
 
 	public boolean isValid(String orbName) {
+		String temp = getClass().getName();
+		System.out.println(temp);
 		switch (orbName) {
 		case "TRANSMUTATIONORB" : if (rarity.equals(RarityEnum.COMMON.toString())) {
 			return true;
+		}
+		return false;
+		case "AUGMENTATIONORB" : if (rarity.equals(RarityEnum.MAGIC.toString())) {
+			if (prefix[0] == null || suffix[0] == null) {
+				return true;
+			}
 		}
 		return false;
 		case "REGALORB": if (rarity.equals(RarityEnum.MAGIC.toString())) {

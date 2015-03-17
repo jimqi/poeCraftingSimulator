@@ -11,6 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import poeCraftingSim.client.enums.AffixEnum;
+import poeCraftingSim.client.functionality.ButtonFactory;
 import poeCraftingSim.client.items.Item;
 import poeCraftingSim.client.orbs.*;
 
@@ -33,6 +34,7 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
 
 		//create the panel to display the item stats
 		JPanel itemPanel = new JPanel();
+		itemPanel.setPreferredSize(new Dimension(200, 230));
 		String[] prefixes, suffixes, implicits;
 		implicits = item.getMod(AffixEnum.IMPLICIT.toString());
 		prefixes = item.getMod(AffixEnum.PREFIX.toString());
@@ -64,55 +66,14 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
 
 		add(itemPanel);
 
-		//create the buttons to apply orbs
-		transmutation = new JButton("Transmutation Orb");
-		transmutation.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				TransmutationOrb.use(item);
-				MainWindow.updateItemPanel(item);
-			}
-		});
-
-		regal = new JButton("Regal Orb");
-		regal.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				RegalOrb.use(item);
-				MainWindow.updateItemPanel(item);
-			}
-		});
-
-		scouring = new JButton("Scouring Orb");
-		scouring.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				ScouringOrb.use(item);
-				MainWindow.updateItemPanel(item);
-			}
-		});
-		
-		alchemy = new JButton("Alchemy Orb");
-		alchemy.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				AlchemyOrb.use(item);
-				MainWindow.updateItemPanel(item);
-			}
-		});
-		
-		chaos = new JButton("Chaos Orb");
-		chaos.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				ChaosOrb.use(item);
-				MainWindow.updateItemPanel(item);
-			}
-		});
-		
-		exalt = new JButton("Exalted Orb");
-		exalt.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				ExaltedOrb.use(item);
-				MainWindow.updateItemPanel(item);
-			}
-		});
-
+		//create the buttons to apply orbs	
+		transmutation = ButtonFactory.createButton("Transmutation Orb", "TransmutationOrb", item);
+		augmentation = ButtonFactory.createButton("Augmentation Orb", "AugmentationOrb", item);
+		regal = ButtonFactory.createButton("Regal Orb", "RegalOrb", item);
+		scouring = ButtonFactory.createButton("Scouring Orb", "ScouringOrb", item);
+		alchemy = ButtonFactory.createButton("Alchemy Orb", "AlchemyOrb", item);
+		chaos = ButtonFactory.createButton("Chaos Orb", "ChaosOrb", item);
+		exalt = ButtonFactory.createButton("Exalted Orb", "ExaltedOrb", item);
 		
 		final JPanel buttonPanel = new JPanel();
 		buttonPanel.setLayout(buttonLayout);
@@ -124,12 +85,13 @@ public class ItemCraftingPanel extends JPanel implements ActionListener {
                 (int)(buttonSize.getHeight() * 3.5)+maxGap * 2));
         
         buttonPanel.add(transmutation);
+        buttonPanel.add(augmentation);
         buttonPanel.add(scouring);
         buttonPanel.add(regal);
         buttonPanel.add(alchemy);
         buttonPanel.add(chaos);
         buttonPanel.add(exalt);
-        buttonPanel.add(new JButton("Button 4"));
+
         
         add(buttonPanel, BorderLayout.SOUTH);
 

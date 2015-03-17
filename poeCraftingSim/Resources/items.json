@@ -3,6 +3,59 @@
     "weapon": {
       "Bow": [
         {
+          "name": "Citadel Bow",
+          "level": 58,
+          "required dex": 185,
+          "required str": 0,
+          "required int": 0,
+          "stats": {
+            "Minimum Physical Damage": 24,
+            "Maximum Physical Damage": 95,
+            "Critical Strike Chance": 5,
+            "Attacks per Second": "1.25"
+          },
+          "implicit mods": [
+            []
+          ]
+        },
+        {
+          "name": "Ranger Bow",
+          "level": 60,
+          "required dex": 212,
+          "required str": 0,
+          "required int": 0,
+          "stats": {
+            "Minimum Physical Damage": 33,
+            "Maximum Physical Damage": 78,
+            "Critical Strike Chance": 5,
+            "Attacks per Second": "1.30"
+          },
+          "implicit mods": [
+            []
+          ]
+        },
+        {
+          "name": "Maraketh Bow",
+          "level": 62,
+          "required dex": 212,
+          "required str": 0,
+          "required int": 0,
+          "stats": {
+            "Minimum Physical Damage": 29,
+            "Maximum Physical Damage": 87,
+            "Critical Strike Chance": 5,
+            "Attacks per Second": "1.25"
+          },
+          "implicit mods": [
+            {
+              "%increased Weapon Elemental Damage": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
           "name": "Spine Bow",
           "level": 64,
           "required dex": 212,
@@ -12,10 +65,10 @@
             "Minimum Physical Damage": 27,
             "Maximum Physical Damage": 79,
             "Critical Strike Chance": 5,
-            "Attacks per Second": 1.34
+            "Attacks per Second": "1.34"
           },
           "implicit mods": [
-            {}
+            []
           ]
         },
         {
@@ -28,10 +81,10 @@
             "Minimum Physical Damage": 19,
             "Maximum Physical Damage": 75,
             "Critical Strike Chance": 5,
-            "Attacks per Second": 1.50
+            "Attacks per Second": "1.50"
           },
           "implicit mods": [
-            {}
+            []
           ]
         },
         {
@@ -44,13 +97,57 @@
             "Minimum Physical Damage": 34,
             "Maximum Physical Damage": 89,
             "Critical Strike Chance": 5,
-            "Attacks per Second": 1.20
+            "Attacks per Second": "1.20"
           },
           "implicit mods": [
             {
               "%increased critical strike chance": {
                 "min": 30,
                 "max": 50
+              }
+            }
+          ]
+        }
+      ],
+      "Wand": [
+        {
+          "name": "Tornado Wand",
+          "level": 65,
+          "required dex": 0,
+          "required str": 0,
+          "required int": 212,
+          "stats": {
+            "Minimum Physical Damage": 16,
+            "Maximum Physical Damage": 49,
+            "Critical Strike Chance": 8.36,
+            "Attacks per Second": 1.30
+          },
+          "implicit mods": [
+            {
+              "increased spell damage": {
+                "min": 16,
+                "max": 19
+              }
+            }
+          ]
+        },
+        {
+          "name": "Prophecy Wand",
+          "level": 68,
+          "required dex": 0,
+          "required str": 0,
+          "required int": 245,
+          "stats": {
+            "Minimum Physical Damage": 28,
+            "Maximum Physical Damage": 52,
+            "Critical Strike Chance": 8.96,
+            "Attacks per Second": 1.10
+          },
+          "implicit mods": [
+            {
+              "increased spell damage": {
+                "min": 16,
+                "max": 20
               }
             }
           ]
@@ -66,8 +163,8 @@
           "stats": {
             "Minimum Physical Damage": 23,
             "Maximum Physical Damage": 61,
-            "Critical Strike Chance": 6.68,
-            "Attacks per Second": 1.5
+            "Critical Strike Chance": "6.68",
+            "Attacks per Second": "1.50"
           },
           "implicit mods": [
             {
@@ -87,8 +184,8 @@
           "stats": {
             "Minimum Physical Damage": 17,
             "Maximum Physical Damage": 68,
-            "Critical Strike Chance": 6.68,
-            "Attacks per Second": 1.35
+            "Critical Strike Chance": "6.68",
+            "Attacks per Second": "1.35"
           },
           "implicit mods": [
             {
@@ -100,7 +197,71 @@
           ]
         }
       ],
-      "Dagger": [],
+      "Dagger": [
+        {
+          "name": "Ambusher",
+          "level": 60,
+          "required dex": 113,
+          "required str": 0,
+          "required int": 113,
+          "stats": {
+            "Minimum Physical Damage": 16,
+            "Maximum Physical Damage": 63,
+            "Critical Strike Chance": "6.68",
+            "Attacks per Second": "1.60"
+          },
+          "implicit mods": [
+            {
+              "%increased Global Critical Strike Chance": {
+                "min": 40,
+                "max": 40
+              }
+            }
+          ]
+        },
+        {
+          "name": "Platinum Kris",
+          "level": 64,
+          "required dex": 76,
+          "required str": 0,
+          "required int": 149,
+          "stats": {
+            "Minimum Physical Damage": 20,
+            "Maximum Physical Damage": 79,
+            "Critical Strike Chance": "7.28",
+            "Attacks per Second": "1.20"
+          },
+          "implicit mods": [
+            {
+              "%increased Global Critical Strike Chance": {
+                "min": 80,
+                "max": 80
+              }
+            }
+          ]
+        },
+        {
+          "name": "Demon Dagger",
+          "level": 68,
+          "required dex": 76,
+          "required str": 0,
+          "required int": 149,
+          "stats": {
+            "Minimum Physical Damage": 21,
+            "Maximum Physical Damage": 83,
+            "Critical Strike Chance": "7.28",
+            "Attacks per Second": "1.20"
+          },
+          "implicit mods": [
+            {
+              "%increased Global Critical Strike Chance": {
+                "min": 60,
+                "max": 60
+              }
+            }
+          ]
+        }
+      ],
       "One-Handed Axe": [],
       "One-Handed Mace": [],
       "One-Handed Sword": [],
@@ -111,7 +272,7 @@
       "Two-Handed Sword": [],
       "Quiver": []
     },
-    "armor": {},
-    "jewelery": {}
+    "armor": [],
+    "jewelery": []
   }
 }

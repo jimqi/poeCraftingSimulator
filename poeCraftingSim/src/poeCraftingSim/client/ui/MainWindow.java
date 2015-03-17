@@ -69,7 +69,7 @@ public class MainWindow extends JFrame {
 		cb.add(creationPanel);
 		cb.add(createItem);
 
-		frame.setSize(400, 300);
+		frame.setSize(400, 530);
 		frame.setVisible(true);
 
 	}
